@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>githubのssh認証について</title>
+
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175229094-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-175229094-2');
+  </script>
+  
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" href="https://marigold1287.github.io/index.xml" title="ゆりぐらみんぐ">
+
+<link id="dark-mode-theme" rel="stylesheet" href="https://marigold1287.github.io/css/dark.css" />
+<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+
+<script src="https://marigold1287.github.io/js/bundle.js"></script>
+<script src="https://marigold1287.github.io/js/instantpage.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.75.0-DEV" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+      <a href="https://marigold1287.github.io/" class="nav-logo">
+      <img src="https://marigold1287.github.io/images/banner.png"
+           width="200"
+           height="75"
+           alt="Logo">
+      </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li><a href="https://marigold1287.github.io/about/" name="About"><i class="fas fa-user fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/tags" name="Tags"><i class="fas fa-tag fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/categories" name="Categories"><i class="fas fa-folder-open fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/archives" name="Archives"><i class="fas fa-archive fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/marigold1332" name="Twitter"><i class="fab fa-twitter fa-lg"></i></a></li>
+        
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+        <div class="Note-heading">
+          
+            <h1>githubのssh認証について</h1>
+          
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+    <p>githubを使用するときのパスワード入力の手間を省くことができます。</p>
+<p><a href="https://docs.github.com/ja/github/authenticating-to-github/connecting-to-github-with-ssh">https://docs.github.com/ja/github/authenticating-to-github/connecting-to-github-with-ssh</a></p>
+<p>が参考になりますが、やったことは以下の通りです。</p>
+<ol>
+<li>
+<p>まず、sshキーが存在するかどうかを以下のコマンドで確認する。</p>
+<pre><code class="language-nil" data-lang="nil">ls -al ~/.ssh 
+</code></pre></li>
+</ol>
+<p>公開鍵のファイル名は以下のいずれか。</p>
+<ul>
+<li>
+<p>id_rsa.pub</p>
+</li>
+<li>
+<p>id_ecdsa.pub</p>
+</li>
+<li>
+<p>id_ed25519.pub</p>
+</li>
+<li>
+<p>sshキーがない場合、以下を実行して新しいキーを作る</p>
+<pre><code class="language-nil" data-lang="nil">ssh-keygen -t rsa -b 4096 -C &quot;mail@example.com&quot;
+</code></pre></li>
+<li>
+<p>Enter a file in which to save the key、Enter passphraseが表示されるが空白のままEnterを押す（パスフレーズを使わない）</p>
+</li>
+<li>
+<p>以下を実行してsshキーをクリップボードにコピーする</p>
+<pre><code class="language-nil" data-lang="nil">clip &lt; ~/.ssh/id_rsa.pub
+</code></pre></li>
+<li>
+<p><a href="https://github.com/settings/keys">github</a>でNew SSH keyを選択し、Titleを決めて、4.でコピーしたキーを貼りつける。</p>
+</li>
+<li>
+<p>Add SSH keyを押す</p>
+</li>
+<li>
+<p>Bash上で以下を実行する</p>
+<pre><code class="language-nil" data-lang="nil">ssh -T git@github.com
+</code></pre><p>以下のような警告が出てきた場合は、yesを押す</p>
+<pre><code class="language-nil" data-lang="nil">&gt; The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+&gt; RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+&gt; Are you sure you want to continue connecting (yes/no)?
+</code></pre><p>2行目のfingerprintはsshキーの指紋で、以下で確認できる。</p>
+<pre><code class="language-nil" data-lang="nil">ssh-keygen -lf ~/.ssh/id_rsa
+</code></pre><p>-lvfとすれば指紋のAscii artを見ることができる。</p>
+</li>
+<li>
+<p>yesを押すと以下のメッセージが表示され、sshキーによる認証ができるようになる。</p>
+<pre><code class="language-nil" data-lang="nil">&gt; Hi username! You've successfully authenticated, but GitHub does not
+&gt; provide shell access.
+</code></pre></li>
+<li>
+<p>ssh認証によるpushやgit clone <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORYのようにcloneが可能になる。</p>
+</li>
+</ul>
+<p>これで、パスワードの入力が不要になると思います。なお、ssh-agentを使うと秘密鍵に設定されたパスフレーズを繰り返し入力しなくて済むようになるみたいですが、ここでは省略しています。</p>
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="https://marigold1287.github.io//tags/github/">github</a>&nbsp;
+          
+        </div>
+      
+    </article>
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        (function() {
+            
+            
+            if (window.location.hostname == "localhost") return;
+
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            var disqus_shortname = 'yurigramming';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+
+    <footer>
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://marigold1287.github.io/about">Marigold</a>
+      &nbsp;&copy;
+      2020
+
+      
+        &nbsp;/&nbsp;
+        <a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a>
+      
+
+      &nbsp;&ndash;&nbsp;
+      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;Theme <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+      </p>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
