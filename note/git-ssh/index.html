@@ -146,7 +146,17 @@
 <li>
 <p>ssh認証によるpushやgit clone <a href="mailto:git@github.com">git@github.com</a>:USERNAME/REPOSITORYのようにcloneが可能になる。</p>
 </li>
+<li>
+<p>既にhttpsでcloneしているものは以下でurl確認して</p>
+</li>
 </ul>
+<!-- raw HTML omitted -->
+<pre><code class="language-nil" data-lang="nil">$ git remote -v
+origin  https://github.com/marigold1332/marigold1332.git.io.git (fetch)
+origin  https://github.com/marigold1332/marigold1332.git.io.git (push)
+</code></pre><p>次のコマンドでhttps-&gt;git@に変える</p>
+<pre><code class="language-nil" data-lang="nil">git remote set-url origin git@github.com/marigold1332/marigold1332.git.io.git
+</code></pre><p>もう一度、最初のコマンドを実行して内容が反映されているか確認する。submodule分は.gitmoduleファイルを書き換える。</p>
 <p>これで、パスワードの入力が不要になると思います。なお、ssh-agentを使うと秘密鍵に設定されたパスフレーズを繰り返し入力しなくて済むようになるみたいですが、ここでは省略しています。</p>
 
 
