@@ -9,54 +9,14 @@
 		
 		<managingEditor>Page(/categories/月が綺麗ですね) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Thu, 13 Aug 2020 18:52:47 +0900</lastBuildDate>
+  		<lastBuildDate>Sat, 15 Aug 2020 10:22:00 +0900</lastBuildDate>
 		
 		<atom:link href="/categories/%E6%9C%88%E3%81%8C%E7%B6%BA%E9%BA%97%E3%81%A7%E3%81%99%E3%81%AD/" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>雨でも晴れでも 第7話</title>
-			<link>https://marigold1287.github.io/post/amehare/amehare-ep7/</link>
-			<pubDate>Fri, 14 Aug 2020 23:18:07 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/amehare/amehare-ep7/</guid>
-			<description>ネタバレありの感想です。</description>
-		</item>
-      	
-		<item>
-			<title>雨でも晴れでも 第6話</title>
-			<link>https://marigold1287.github.io/post/amehare/amehare-ep6/</link>
-			<pubDate>Fri, 14 Aug 2020 23:11:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/amehare/amehare-ep6/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>あの娘にキスと白百合を 9巻</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol9/</link>
-			<pubDate>Fri, 14 Aug 2020 22:53:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol9/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>あの娘にキスと白百合を 登場人物</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-charalist/</link>
-			<pubDate>Fri, 14 Aug 2020 09:01:57 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-charalist/</guid>
-			<description>あの娘にキスと白百合をの登場人物をまとめています</description>
-		</item>
-      	
-		<item>
-			<title>痩せたいさんと失恋ちゃん</title>
-			<link>https://marigold1287.github.io/post/yasetai/yasetai/</link>
-			<pubDate>Thu, 13 Aug 2020 23:08:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/yasetai/yasetai/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
 			<title>しおりを探すページたち 2巻</title>
 			<link>https://marigold1287.github.io/post/shiori/shiori-vol2/</link>
-			<pubDate>Thu, 13 Aug 2020 18:53:02 +0900</pubDate>
+			<pubDate>Sat, 15 Aug 2020 11:10:15 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/shiori/shiori-vol2/</guid>
 			<description>あらすじと感想</description>
 		</item>
@@ -64,31 +24,71 @@
 		<item>
 			<title>しおりを探すページたち 1巻</title>
 			<link>https://marigold1287.github.io/post/shiori/shiori-vol1/</link>
-			<pubDate>Thu, 13 Aug 2020 18:53:01 +0900</pubDate>
+			<pubDate>Sat, 15 Aug 2020 11:10:14 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/shiori/shiori-vol1/</guid>
 			<description>あらすじと感想</description>
 		</item>
       	
 		<item>
+			<title>あの娘にキスと白百合を 登場人物</title>
+			<link>https://marigold1287.github.io/post/anokiss/anokiss-charalist/</link>
+			<pubDate>Sat, 15 Aug 2020 11:10:01 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/anokiss/anokiss-charalist/</guid>
+			<description>あの娘にキスと白百合をの登場人物をまとめています</description>
+		</item>
+      	
+		<item>
+			<title>雨でも晴れでも 第7話-1</title>
+			<link>https://marigold1287.github.io/post/amehare/amehare-ep7-1/</link>
+			<pubDate>Sat, 15 Aug 2020 11:10:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/amehare/amehare-ep7-1/</guid>
+			<description>ネタバレありの感想です。</description>
+		</item>
+      	
+		<item>
+			<title>雨でも晴れでも 登場人物リスト</title>
+			<link>https://marigold1287.github.io/post/amehare/amehare-charalist/</link>
+			<pubDate>Sat, 15 Aug 2020 11:09:56 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/amehare/amehare-charalist/</guid>
+			<description>登場人物の一覧</description>
+		</item>
+      	
+		<item>
+			<title>ささやくように恋を唄うの登場人物</title>
+			<link>https://marigold1287.github.io/post/sasakoi/sasakoi-charalist/</link>
+			<pubDate>Sat, 15 Aug 2020 11:09:48 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/sasakoi/sasakoi-charalist/</guid>
+			<description>ささやくように恋を唄うの登場人物リスト</description>
+		</item>
+      	
+		<item>
 			<title>しおりを探すページたち　登場人物</title>
 			<link>https://marigold1287.github.io/post/shiori/shiori-charalist/</link>
-			<pubDate>Thu, 13 Aug 2020 18:53:00 +0900</pubDate>
+			<pubDate>Sat, 15 Aug 2020 10:51:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/shiori/shiori-charalist/</guid>
 			<description>登場人物のリスト</description>
 		</item>
       	
 		<item>
-			<title>あの娘にキスと白百合を 8巻</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol8/</link>
-			<pubDate>Thu, 13 Aug 2020 18:52:59 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol8/</guid>
+			<title>あの娘にキスと白百合を 5巻</title>
+			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol5/</link>
+			<pubDate>Sat, 15 Aug 2020 10:50:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol5/</guid>
+			<description>あらすじと感想</description>
+		</item>
+      	
+		<item>
+			<title>あの娘にキスと白百合を 6巻</title>
+			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol6/</link>
+			<pubDate>Sat, 15 Aug 2020 10:50:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol6/</guid>
 			<description>あらすじと感想</description>
 		</item>
       	
 		<item>
 			<title>あの娘にキスと白百合を 7巻</title>
 			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol7/</link>
-			<pubDate>Thu, 13 Aug 2020 18:52:58 +0900</pubDate>
+			<pubDate>Sat, 15 Aug 2020 10:50:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol7/</guid>
 			<description>あらすじと感想</description>
 		</item>
