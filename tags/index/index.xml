@@ -9,10 +9,26 @@
 		
 		<managingEditor>Page(/tags/index) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Sat, 15 Aug 2020 11:50:15 +0900</lastBuildDate>
+  		<lastBuildDate>Thu, 20 Aug 2020 11:48:14 +0900</lastBuildDate>
 		
 		<atom:link href="/tags/index/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>踊り場にスカートが鳴る　登場人物</title>
+			<link>https://marigold1287.github.io/post/skirt/skirt-charalist/</link>
+			<pubDate>Thu, 20 Aug 2020 11:48:19 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/skirt/skirt-charalist/</guid>
+			<description>登場人物のリスト</description>
+		</item>
+      	
+		<item>
+			<title>踊り場にスカートが鳴る 第1話 少女たちは踊り場に</title>
+			<link>https://marigold1287.github.io/post/skirt/skirt-ep1/</link>
+			<pubDate>Thu, 20 Aug 2020 11:47:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/skirt/skirt-ep1/</guid>
+			<description>あらすじと感想</description>
+		</item>
+      	
 		<item>
 			<title>あの娘にキスと白百合を 10巻</title>
 			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol10/</link>
@@ -75,22 +91,6 @@
 			<pubDate>Sat, 15 Aug 2020 10:51:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/shiori/shiori-charalist/</guid>
 			<description>登場人物のリスト</description>
-		</item>
-      	
-		<item>
-			<title>あの娘にキスと白百合を 5巻</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol5/</link>
-			<pubDate>Sat, 15 Aug 2020 10:50:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol5/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>あの娘にキスと白百合を 6巻</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol6/</link>
-			<pubDate>Sat, 15 Aug 2020 10:50:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol6/</guid>
-			<description>あらすじと感想</description>
 		</item>
       	
 	</channel>
