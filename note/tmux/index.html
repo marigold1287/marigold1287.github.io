@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>tmuxコマンド</title>
+
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175229094-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-175229094-2');
+  </script>
+  
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" href="https://marigold1287.github.io/index.xml" title="ゆりぐらみんぐ">
+
+<link id="dark-mode-theme" rel="stylesheet" href="https://marigold1287.github.io/css/dark.css" />
+<link id="main-css" rel="stylesheet" href="https://marigold1287.github.io/css/main.css" />
+<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+
+<script src="https://marigold1287.github.io/js/bundle.js"></script>
+<script src="https://marigold1287.github.io/js/instantpage.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.75.0-DEV" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+      <a href="https://marigold1287.github.io/" class="nav-logo">
+      <img src="https://marigold1287.github.io/images/banner.png"
+           width="200"
+           height="75"
+           alt="Logo">
+      </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li><a href="https://marigold1287.github.io/about/" name="About"><i class="fas fa-user fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/post" name="Post"><i class="fas fa-book-open fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/note" name="Note"><i class="fas fa-desktop fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/tags" name="Tags"><i class="fas fa-tag fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/categories" name="Categories"><i class="fas fa-folder-open fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/archives" name="Archives"><i class="fas fa-archive fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/marigold1332" name="Twitter"><i class="fab fa-twitter fa-lg"></i></a></li>
+        
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a></li>
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/note/">Notes</a></li>
+<li class="breadcrumb-item active" aria-current="page">tmuxコマンド</li>
+  </ol>
+</nav>
+        <div class="note-heading">
+          
+            <h1>tmuxコマンド</h1>
+          
+          
+            <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>&nbsp;Aug 21, 2020
+  
+    &nbsp;&nbsp;&nbsp;<i class="fa fa-folder-open"></i>&nbsp;
+    
+      <a href="https://marigold1287.github.io//categories/note/">Note</a>&nbsp;
+    
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+    <table>
+<thead>
+<tr>
+<th>tmux内での操作</th>
+<th>bashでの操作</th>
+<th>コマンドの説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ヘルプコマンドとコマンドライン入力</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b ?</td>
+<td></td>
+<td>Help</td>
+</tr>
+<tr>
+<td>C-b /</td>
+<td></td>
+<td>キーの説明を表示</td>
+</tr>
+<tr>
+<td>C-b :</td>
+<td></td>
+<td>コマンド入力プロンプトの表示</td>
+</tr>
+<tr>
+<td><strong>アタッチとデタッチ</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b d</td>
+<td></td>
+<td>セッションを離れ、bashに戻る</td>
+</tr>
+<tr>
+<td></td>
+<td>tmux attach</td>
+<td>セッションに戻る</td>
+</tr>
+<tr>
+<td><strong>セッション操作</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b : list-session</td>
+<td>tmux ls</td>
+<td>現在開いるすべてのセッションを確認</td>
+</tr>
+<tr>
+<td>C-b : kill-server</td>
+<td></td>
+<td>全てのセッションをキルする</td>
+</tr>
+<tr>
+<td>C-b : kill-session</td>
+<td></td>
+<td>カレントセッションをキルする</td>
+</tr>
+<tr>
+<td>C-b s</td>
+<td></td>
+<td>セッションをリスト表示</td>
+</tr>
+<tr>
+<td>C-b $</td>
+<td></td>
+<td>セッション名を変更</td>
+</tr>
+<tr>
+<td><strong>ウインドウ操作</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b c</td>
+<td></td>
+<td>新しいウインドウを作る</td>
+</tr>
+<tr>
+<td>C-b %</td>
+<td></td>
+<td>windowを左右に分割</td>
+</tr>
+<tr>
+<td>C-b &quot;</td>
+<td></td>
+<td>windowを上下に分割</td>
+</tr>
+<tr>
+<td>C-b 0, 1, 2 &hellip;</td>
+<td></td>
+<td>カレントウインドウをwindow 0, 1, 2 &hellip; にする</td>
+</tr>
+<tr>
+<td>C-b n, p</td>
+<td></td>
+<td>次/前のウインドウに移動</td>
+</tr>
+<tr>
+<td>C-b w</td>
+<td></td>
+<td>ウインドウをリスト表示</td>
+</tr>
+<tr>
+<td>C-b &amp;</td>
+<td></td>
+<td>ウインドウをキルする</td>
+</tr>
+<tr>
+<td>C-b ,</td>
+<td></td>
+<td>ウインドウ名を変更</td>
+</tr>
+<tr>
+<td><strong>ペイン操作</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b  UP, DOWN, RIGHT, LEFT</td>
+<td></td>
+<td>上下左右のペインに移動</td>
+</tr>
+<tr>
+<td>C-b q 0, 1, 2 &hellip;</td>
+<td></td>
+<td>ペイン番号を表示して、定した番号のペインをアクティブにする</td>
+</tr>
+<tr>
+<td>C-b x</td>
+<td></td>
+<td>アクティブペインをキルする</td>
+</tr>
+<tr>
+<td>C-b o</td>
+<td></td>
+<td>次のペインに移動</td>
+</tr>
+<tr>
+<td><strong>コピー・貼り付け</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b [</td>
+<td></td>
+<td>コピーモードに切り替え。リージョン選択後,C-wでコピー</td>
+</tr>
+<tr>
+<td>C-b ]</td>
+<td></td>
+<td>最新のコピー内容を貼りつける</td>
+</tr>
+<tr>
+<td>C-b =</td>
+<td></td>
+<td>ペーストバッファーモードを起動</td>
+</tr>
+<tr>
+<td><strong>その他</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C-b :set -g mouse on</td>
+<td></td>
+<td>マウス操作を有効にする</td>
+</tr>
+</tbody>
+</table>
+<p>.tmux.confに <strong>set -g mouse on</strong> と書いてホームディレクトリに保存すると起動後から有効になる。</p>
+
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="https://marigold1287.github.io//tags/tmux/">tmux</a>&nbsp;
+          
+        </div>
+      
+    </article>
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        (function() {
+            
+            
+            if (window.location.hostname == "localhost") return;
+
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            var disqus_shortname = 'yurigramming';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+
+    <footer>
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://marigold1287.github.io/about">Marigold</a>
+      &nbsp;&copy;
+      2020
+
+      
+        &nbsp;/&nbsp;
+        <a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a>
+      
+
+      &nbsp;&ndash;&nbsp;
+      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;Theme <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+      </p>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

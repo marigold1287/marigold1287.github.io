@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>bashコマンド</title>
+
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175229094-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-175229094-2');
+  </script>
+  
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" href="https://marigold1287.github.io/index.xml" title="ゆりぐらみんぐ">
+
+<link id="dark-mode-theme" rel="stylesheet" href="https://marigold1287.github.io/css/dark.css" />
+<link id="main-css" rel="stylesheet" href="https://marigold1287.github.io/css/main.css" />
+<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+
+<script src="https://marigold1287.github.io/js/bundle.js"></script>
+<script src="https://marigold1287.github.io/js/instantpage.js" type="module" defer></script>
+<meta name="generator" content="Hugo 0.75.0-DEV" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+      <a href="https://marigold1287.github.io/" class="nav-logo">
+      <img src="https://marigold1287.github.io/images/banner.png"
+           width="200"
+           height="75"
+           alt="Logo">
+      </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li><a href="https://marigold1287.github.io/about/" name="About"><i class="fas fa-user fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/post" name="Post"><i class="fas fa-book-open fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/note" name="Note"><i class="fas fa-desktop fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/tags" name="Tags"><i class="fas fa-tag fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/categories" name="Categories"><i class="fas fa-folder-open fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://marigold1287.github.io/archives" name="Archives"><i class="fas fa-archive fa-lg"></i></a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/marigold1332" name="Twitter"><i class="fab fa-twitter fa-lg"></i></a></li>
+        
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a></li>
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/note/">Notes</a></li>
+<li class="breadcrumb-item active" aria-current="page">bashコマンド</li>
+  </ol>
+</nav>
+        <div class="note-heading">
+          
+            <h1>bashコマンド</h1>
+          
+          
+            <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>&nbsp;Aug 21, 2020
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="#%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0">環境変数</a></li>
+<li><a href="#%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E5%87%A6%E7%90%86">テキスト処理</a></li>
+<li><a href="#grep">grep</a></li>
+<li><a href="#%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE">正規表現</a></li>
+<li><a href="#%E6%8B%A1%E5%BC%B5%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE">拡張正規表現</a></li>
+<li><a href="#sed-%E9%9D%9E%E5%AF%BE%E8%A9%B1%E5%9E%8B%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF">sed-非対話型エディタ</a></li>
+<li><a href="#awk">awk</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="環境変数">環境変数</h2>
+<p>printenv : 設定されている環境変数を表示できる</p>
+<p>export LESS=&rsquo;&ndash;no-init&rsquo; : 環境変数を設定（lessコマンド終了時に画面を消去しない)</p>
+<p>環境変数は~/.bash_profileから読み込まれるが、この中には~/.bashrcを読み込むように書かれている。profileはログイン時にしか読み込まれないが、.bashrcはbash起動のために読み込まれるため、普通は後者に書き込んだほうが良い。</p>
+<h2 id="テキスト処理">テキスト処理</h2>
+<table>
+<thead>
+<tr>
+<th>sort</th>
+<th>行を並べ替える</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>-rは逆順 -nは数値順</td>
+</tr>
+<tr>
+<td>uniq</td>
+<td>重複行を取り除く(連続した行でないと取り除けないのでsortで並べ替えてから実行する。</td>
+</tr>
+<tr>
+<td></td>
+<td>-cで重複行を数える</td>
+</tr>
+<tr>
+<td>cut</td>
+<td>入力の一部を切り出す</td>
+</tr>
+<tr>
+<td></td>
+<td>-d &lt;区切り文字&gt; -f &lt;フィールド番号&gt; [&lt;ファイル名&gt;]</td>
+</tr>
+<tr>
+<td>cat</td>
+<td>ファイル内容をそのまま表示する</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grep">grep</h2>
+<pre><code class="language-nil" data-lang="nil">grep [オプション] &lt;検索パターン&gt; &lt;ファイル名&gt;
+</code></pre><p>たとえば、</p>
+<pre><code class="language-nil" data-lang="nil">grep bash ~/.bashrc
+</code></pre><p>行番号をつける時は、</p>
+<pre><code class="language-nil" data-lang="nil">grep -n  bash ~/.bashrc
+</code></pre><p>オプションがないときは大文字小文字を区別する。-iをつけると区別しなくなる。</p>
+<pre><code class="language-nil" data-lang="nil">grep -i Bash ~/.bashrc
+</code></pre><p>-vをつけると含まない行を出力する</p>
+<pre><code class="language-nil" data-lang="nil">grep -v bash ~/.bashrc
+</code></pre><h2 id="正規表現">正規表現</h2>
+<p>正規表現を使うならシングルクォートで囲う。bashで始まる行を抽出したいなら、</p>
+<pre><code class="language-nil" data-lang="nil">grep '^bash' ~/.bashrc
+</code></pre><p>※クォートで囲まないとシェルが展開してしまう。これはカレントディレクトリ内にあるbashを含むファイルに展開されてしまう。</p>
+<pre><code class="language-nil" data-lang="nil">grep bash* ~/.bashrc
+</code></pre><p>任意の一文字は.(ドット)で表す。</p>
+<pre><code class="language-nil" data-lang="nil">grep 'b.sh' ~/.bashrc
+</code></pre><p>ドットそのものをマッチさせたい場合は.のまえにバックスラッシュを書く。</p>
+<pre><code class="language-nil" data-lang="nil">grep 'bash\.' ~/.bashrc
+</code></pre><p>特定の文字を指定するときは[]で囲む。[a-zA-Z]は大文字小文字全てにマッチ。[1-4]は1,2,3,4はマッチ。[^13]は1,3以外にマッチ。</p>
+<pre><code class="language-nil" data-lang="nil">grep 'b[ab]sh' ~/.bashrc
+</code></pre><p>行頭の文字列を指定する場合は^を、行末を指定する場合は$をつける</p>
+<pre><code class="language-nil" data-lang="nil">grep '^bash' ~/.bashrc
+grep 'bash$' ~/.bashrc
+</code></pre><p>空行は^$で表すことができる。</p>
+<pre><code class="language-nil" data-lang="nil">grep -v '^$' ~/.bashrc
+</code></pre><p>で空行を除くことができる。</p>
+<p>正規表現において、*は直前の文字の0回以上の繰り返しを表す。例えば <strong>go*gle</strong> は</p>
+<pre><code class="language-nil" data-lang="nil">ggle gogle google gooogle goooogle
+</code></pre><p>にマッチする。この*はbashにおけるワイルドカードとは異なる。ワイルドカードでの*は0文字以上の任意の文字列を意味する。同じ意味を正規表現で表すためには <strong>.*</strong> を用いる。</p>
+<h2 id="拡張正規表現">拡張正規表現</h2>
+<p>grepで-Eオプションをつけると上記以外の正規表現も使えるようになる。</p>
+<p>+は直前の文字の1回以上の繰り返しを表す。</p>
+<pre><code class="language-nil" data-lang="nil">grep -E 'ba+h' ~/.bashrc
+</code></pre><p>これはbah baah baaah &hellip;にマッチし、bhにはマッチしない。</p>
+<p>繰り返し回数を指定したい場合は{m,n}を使う。基本正規表現で使いたい場合は\{m,n\}とする。</p>
+<pre><code class="language-nil" data-lang="nil">grep -E 'ba{1,3}h' ~/.bashrc
+</code></pre><p>はbah baah baaahにマッチする。例えば、郵便番号は[0-9]{3}-[0-9]{4}で、これらはちょうど3回, 4回の繰り返しを意味する。</p>
+<p>()は正規表現をグループ化することができる。 <strong>(bash){2,}</strong> はbashが2回以上繰り返される場合にマッチ。</p>
+<p><strong>|</strong> はorの意味で、abc|def|xyzはabc, def, xyzのいずれかにマッチする。</p>
+<h2 id="sed-非対話型エディタ">sed-非対話型エディタ</h2>
+<pre><code class="language-nil" data-lang="nil">sed [Option] &lt;script&gt; &lt;File&gt;
+</code></pre><p>スクリプトはコマンドとアドレス、フラグからなる。</p>
+<pre><code class="language-nil" data-lang="nil">sed 1,5d sample.txt #1,5は1行目と5行目を指すアドレス、dは削除コマンド
+sed 's/aaa/bbb/g' sample.txt #sは置換コマンド、aaa/bbbは置換前後の文字列、gはフラグで各行に現れた全ての該当文字を削除する
+</code></pre><p>$は最終行を意味する</p>
+<pre><code class="language-nil" data-lang="nil">sed 3,$d sample.txt
+</code></pre><p>は3行目から最終行まで削除する。</p>
+<p>置換が発生した行だけ表示する</p>
+<pre><code class="language-nil" data-lang="nil">sed -n 's/!//gp' sample.txt
+</code></pre><p>コマンド直後の/は区切り文字になる。例えば、</p>
+<pre><code class="language-nil" data-lang="nil">sed 's!bear!/bear/!g' sample.txt
+</code></pre><p>は!が区切り文字で、bearを/bear/に置換する。</p>
+<h2 id="awk">awk</h2>
+<pre><code class="language-nil" data-lang="nil">awk &lt;script&gt; &lt;file&gt;
+awk 'pattern {action}' file
+</code></pre><p>スクリプトはパターンとアクションからなる。パターンはアクションを実行するかどうか、アクションはテキストの抽出、置換、削除などをパターンにマッチした場合に実行。パターンを省略するとすべてのレコード（行のこと）に対してアクションを実行する。</p>
+<p>第2・第3フィールドを表示する</p>
+<pre><code class="language-nil" data-lang="nil">awk '{print $2,$3}' sample.txt
+</code></pre><p>レコード全体は <strong>$0</strong> で指定できる。変数は,で区切らないとスペースが入らない。 <strong>$NF</strong> はレコードの最後のフィールドが表示される。 <strong>$(NF-1)</strong> は最後から2つ目。</p>
+<p>第9フィールドがcpで始まる場合にアクションを実行する場合は</p>
+<pre><code class="language-nil" data-lang="nil">awk '$9 ~ /^cp/ {print $5, $9}' sample.txt
+</code></pre><p>~は正規表現の比較を意味し、正規表現のパターンはスラッシュ/で囲む。比較対象($9)は省略しても良い。</p>
+<pre><code class="language-nil" data-lang="nil">awk '/^cp/ {print $5, $9}' sample.txt
+</code></pre><p>この場合はレコード全体を対象とする。</p>
+<p>区切り文字を,に指定して、最終フィールドの総和を計算したいなら、</p>
+<pre><code class="language-nil" data-lang="nil">awk -F, '{sum += $NF} END{print sum}' sample.csv
+</code></pre><p>ENDはENDブロックというパターン。ENDブロック内のアクションは最後に実行される。NRは行数と同じであり、 sum/NRは平均を意味する。スクリプトをsum.awkとして保存することもでき、</p>
+<pre><code class="language-nil" data-lang="nil">awk -F, -f sum.awk score.csv
+
+sum.awk
+      {sum +=$NF} END{print sum}
+</code></pre><p>のように実行する。</p>
+
+
+
+      
+    </article>
+    
+    
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        (function() {
+            
+            
+            if (window.location.hostname == "localhost") return;
+
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            var disqus_shortname = 'yurigramming';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+
+    <footer>
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://marigold1287.github.io/about">Marigold</a>
+      &nbsp;&copy;
+      2020
+
+      
+        &nbsp;/&nbsp;
+        <a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a>
+      
+
+      &nbsp;&ndash;&nbsp;
+      <i class="fas fa-moon" id="dark-mode-toggle"></i>
+
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;Theme <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+      </p>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
