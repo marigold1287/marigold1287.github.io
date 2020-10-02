@@ -14,6 +14,22 @@
 		<atom:link href="/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>行進子犬に恋文を 登場人物</title>
+			<link>https://marigold1287.github.io/post/koinu/koinu-charlist/</link>
+			<pubDate>Fri, 02 Oct 2020 22:05:29 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/koinu/koinu-charlist/</guid>
+			<description>登場人物のリスト</description>
+		</item>
+      	
+		<item>
+			<title>行進子犬に恋文を 1巻</title>
+			<link>https://marigold1287.github.io/post/koinu/koinu-vol1/</link>
+			<pubDate>Fri, 02 Oct 2020 22:04:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/koinu/koinu-vol1/</guid>
+			<description>メモ書き程度</description>
+		</item>
+      	
+		<item>
 			<title>缶乃短編集 無職とJK</title>
 			<link>https://marigold1287.github.io/post/neet/</link>
 			<pubDate>Fri, 04 Sep 2020 20:31:00 +0900</pubDate>
@@ -75,22 +91,6 @@
 			<pubDate>Thu, 20 Aug 2020 11:48:19 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/skirt/skirt-charalist/</guid>
 			<description>登場人物のリスト</description>
-		</item>
-      	
-		<item>
-			<title>踊り場にスカートが鳴る 第1話 少女たちは踊り場に</title>
-			<link>https://marigold1287.github.io/post/skirt/skirt-ep1/</link>
-			<pubDate>Thu, 20 Aug 2020 11:47:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/skirt/skirt-ep1/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>あの娘にキスと白百合を 10巻</title>
-			<link>https://marigold1287.github.io/post/anokiss/anokiss-vol10/</link>
-			<pubDate>Sun, 16 Aug 2020 11:47:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/anokiss/anokiss-vol10/</guid>
-			<description>あらすじと感想</description>
 		</item>
       	
 	</channel>
