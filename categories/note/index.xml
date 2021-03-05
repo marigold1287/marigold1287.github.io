@@ -14,6 +14,14 @@
 		<atom:link href="/categories/note/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 第36話　トライスター　テイク　オフ☆</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep036/</link>
+			<pubDate>Fri, 05 Mar 2021 21:50:10 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep036/</guid>
+			<description>Tristar活動開始</description>
+		</item>
+      	
+		<item>
 			<title>アイカツ！ 第35話　涙の星</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep035/</link>
 			<pubDate>Fri, 05 Mar 2021 20:39:51 +0900</pubDate>
@@ -83,14 +91,6 @@
 			<pubDate>Fri, 05 Mar 2021 07:21:21 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep028/</guid>
 			<description>蘭ユリ フレッシュガールズカップ決勝戦</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第27話　開幕☆フレッシュガールズカップ</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep027/</link>
-			<pubDate>Fri, 05 Mar 2021 07:21:20 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep027/</guid>
-			<description>フレッシュガールズカップ　スターライトクイーン</description>
 		</item>
       	
 	</channel>
