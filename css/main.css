@@ -101,7 +101,7 @@ a {
 .intro-header .post-heading,
 .intro-header .tags-heading,
 .intro-header .note-heading,
-.intro-header .book-heading,
+.intro-header .diary-heading,
 .intro-header .categories-heading,
 .intro-header .archives-heading {
   text-align: center;
@@ -111,7 +111,7 @@ a {
 .intro-header .post-heading h1,
 .intro-header .tags-heading h1,
 .intro-header .note-heading h1,
-.intro-header .book-heading h1,
+.intro-header .diary-heading h1,
 .intro-header .categories-heading h1,
 .intro-header .archives-heading h1 {
   margin-top: 0;
