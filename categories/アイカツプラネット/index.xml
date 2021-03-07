@@ -9,10 +9,18 @@
 		
 		<managingEditor>Page(/categories/アイカツプラネット) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Fri, 05 Mar 2021 09:18:00 +0900</lastBuildDate>
+  		<lastBuildDate>Sun, 07 Mar 2021 19:18:21 +0900</lastBuildDate>
 		
 		<atom:link href="/categories/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%E3%83%97%E3%83%A9%E3%83%8D%E3%83%83%E3%83%88/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツプラネット！ 第9話　マイレボリューション</title>
+			<link>https://marigold1287.github.io/post/aipla/aipla-ep09/</link>
+			<pubDate>Sun, 07 Mar 2021 19:18:21 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aipla/aipla-ep09/</guid>
+			<description>アイドルになるためにマネージャーのいずみと相談する栞だが、簡単な道ではないと難色を示されてしまいます。しかし、そんな彼女に新人発掘オーディシ</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 第37話　太陽に向かって</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep037/</link>
@@ -83,14 +91,6 @@
 			<pubDate>Fri, 05 Mar 2021 07:21:23 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep031/</guid>
 			<description>母の日　マスカレード　スターライトティアラ</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第30話　真心のコール＆レスポンス</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep030/</link>
-			<pubDate>Fri, 05 Mar 2021 07:21:22 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep030/</guid>
-			<description>話術の心得　aurora fantasy　プレミアムレアカード</description>
 		</item>
       	
 	</channel>
