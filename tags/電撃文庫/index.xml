@@ -14,9 +14,25 @@
 		<atom:link href="/tags/%E9%9B%BB%E6%92%83%E6%96%87%E5%BA%AB/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 第41話　夏色ミラクル☆</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep041/</link>
+			<pubDate>Wed, 10 Mar 2021 00:19:49 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep041/</guid>
+			<description>STAR☆ANIS SUMMER TOUR</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第40話　ガール・ミーツ・ガール</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep040/</link>
+			<pubDate>Tue, 09 Mar 2021 21:14:23 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep040/</guid>
+			<description>スターアニス(STAR☆ANIS)結成　あおいといちごの出会い　Futuring Girl</description>
+		</item>
+      	
+		<item>
 			<title>アイカツ！ 第39話　それゆけ、ソレイユ！</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep039/</link>
-			<pubDate>Tue, 09 Mar 2021 12:39:22 +0900</pubDate>
+			<pubDate>Tue, 09 Mar 2021 21:10:38 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep039/</guid>
 			<description>野外ライブ　獅子の子落とし　スターアニス</description>
 		</item>
@@ -75,22 +91,6 @@
 			<pubDate>Fri, 05 Mar 2021 09:18:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aipla/aipla-ep08/</guid>
 			<description>響子　ビート　じゃないじゃない！</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第34話　Hello☆スーパーアイドル</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep034/</link>
-			<pubDate>Fri, 05 Mar 2021 07:37:04 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep034/</guid>
-			<description>Trister 一ノ瀬かえで　Magical Toy</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第33話　チャンス＆トライ☆</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep033/</link>
-			<pubDate>Fri, 05 Mar 2021 07:21:25 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep033/</guid>
-			<description>神崎美月新ユニットTristarの選抜オーディション</description>
 		</item>
       	
 	</channel>
