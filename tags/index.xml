@@ -9,10 +9,26 @@
 		
 		<managingEditor>Page(/tags) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Fri, 12 Mar 2021 14:33:20 +0900</lastBuildDate>
+  		<lastBuildDate>Sat, 13 Mar 2021 00:03:51 +0900</lastBuildDate>
 		
 		<atom:link href="/tags/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツ！ 第47話　レジェンドアイドル・マスカレード</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep047/</link>
+			<pubDate>Sat, 13 Mar 2021 00:03:51 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep047/</guid>
+			<description>マスカレード</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第46話　リスペクトJ☆</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep046/</link>
+			<pubDate>Sat, 13 Mar 2021 00:02:36 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep046/</guid>
+			<description>スターライトクイーンカップ ジョニー先生のスペシャルレッスン</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 第45話　ハピサマ☆バケーション</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep045/</link>
@@ -75,22 +91,6 @@
 			<pubDate>Tue, 09 Mar 2021 21:10:38 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep039/</guid>
 			<description>野外ライブ　獅子の子落とし　スターアニス</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第38話　ストロベリーパフェ♪</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep038/</link>
-			<pubDate>Sun, 07 Mar 2021 23:51:58 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep038/</guid>
-			<description>ソレイユのリーダー ぽわぽわプリリン　Tristar新メンバー</description>
-		</item>
-      	
-		<item>
-			<title>アイカツプラネット！ 第9話　マイレボリューション</title>
-			<link>https://marigold1287.github.io/post/aipla/aipla-ep09/</link>
-			<pubDate>Sun, 07 Mar 2021 19:18:21 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aipla/aipla-ep09/</guid>
-			<description>アイドルになるためにマネージャーのいずみと相談する栞だが、簡単な道ではないと難色を示されてしまいます。しかし、そんな彼女に新人発掘オーディシ</description>
 		</item>
       	
 	</channel>
