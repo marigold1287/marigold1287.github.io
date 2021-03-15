@@ -48,8 +48,11 @@ a {
   position: relative;
 }
 
-.alignleft {
+.pict {
   text-align: left;
+}
+.pict img{
+	width: 300px;
 }
 
 .navbar {
