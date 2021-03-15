@@ -48,6 +48,10 @@ a {
   position: relative;
 }
 
+.alignleft {
+  text-align: center;
+}
+
 .navbar {
   min-height: 50px;
   margin-bottom: 20px;
