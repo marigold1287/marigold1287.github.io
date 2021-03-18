@@ -20,14 +20,40 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="alternate" type="application/rss+xml" href="https://marigold1287.github.io/index.xml" title="ゆりぐらみんぐ">
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://marigold1287.github.io/index.xml"
+  title="ゆりぐらみんぐ"
+/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="アイカツプラネット！ 第8話　ロックンビート！"/>
+<meta name="twitter:description" content="響子　ビート　じゃないじゃない！"/>
+
+
+
+<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+
+<link
+  id="dark-mode-theme"
+  rel="stylesheet"
+  href="https://marigold1287.github.io/css/dark.css"
+/>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
 
 <script src="https://marigold1287.github.io/js/bundle.js"></script>
-<script src="https://marigold1287.github.io/js/instantpage.js" type="module" defer></script>
- 
-<link id="dark-mode-theme" rel="stylesheet" href="https://marigold1287.github.io/css/dark.css" />
-<link id="main-css" rel="stylesheet" href="https://marigold1287.github.io/css/main.css" />
-<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+<script src="https://marigold1287.github.io/js/instantpage.min.js" type="module" defer></script>
+<link id="custom-css" rel="stylesheet" href="https://marigold1287.github.io/css/customCSS.css" />
+
 <meta name="generator" content="Hugo 0.75.0-DEV" />
   </head>
   <body>
@@ -172,21 +198,25 @@
       
     </article>
       <script>
-    document.addEventListener('scroll', function() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById('backtotopButton').style.opacity = "1";
-            document.getElementById('backtotopButton').style.transition = "0.5s";
-        } else {
-            document.getElementById('backtotopButton').style.opacity = "0";
-            document.getElementById('backtotopButton').style.transition = "0.5s";
-        }
-    });
-
-    function topFunction() {
-        document.body.scrollTop = 0;            
-        document.documentElement.scrollTop = 0; 
+  document.addEventListener('scroll', function () {
+    if (
+      document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50
+    ) {
+      document.getElementById('backtotopButton').style.opacity = '1'
+      document.getElementById('backtotopButton').style.transition = '0.5s'
+    } else {
+      document.getElementById('backtotopButton').style.opacity = '0'
+      document.getElementById('backtotopButton').style.transition = '0.5s'
     }
+  })
+
+  function topFunction() {
+    document.body.scrollTop = 0 
+    document.documentElement.scrollTop = 0 
+  }
 </script>
+
       <button onclick="topFunction()" id="backtotopButton">
         <em class="fa fa-angle-up"></em>
       </button>
