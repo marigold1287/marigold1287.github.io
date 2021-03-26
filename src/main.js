@@ -35,8 +35,8 @@ const queryNgramSeparator = (query) => {
 
   return tokens.join(' ')
 }
-
-const index = '../post/index.json'
+//../を足している
+const index = '../../../../../post/index.json'
 
 const initLunr = () => {
   let request = new XMLHttpRequest()
