@@ -173,8 +173,9 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
 <ul>
 <li><a href="#31%E8%A9%B1-%E5%AD%A4%E5%B3%B6%E3%81%AE%E5%B0%91%E5%A5%B3">31話　孤島の少女</a>
 <ul>
@@ -211,7 +212,8 @@
 <li><a href="#%E7%89%A9%E8%AA%9E%E3%81%AE%E8%A3%8F%E3%81%AE%E7%94%BA%E7%94%B0%E3%81%95%E3%82%93">物語の裏の町田さん</a></li>
 <li><a href="#%E7%81%B0%E9%9F%B3%E3%81%AE%E5%9C%92%E8%8A%B8%E9%83%A8%E6%97%A5%E8%A8%98">灰音の園芸部日記</a></li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
+<!--endtoc-->
 <pre><code class="language-nil" data-lang="nil">
 
 ネタバレありです。
@@ -340,10 +342,7 @@
     
   </ul>
 
-
     </article>
-    
-
       <script>
   document.addEventListener('scroll', function () {
     if (
@@ -368,32 +367,26 @@
         <em class="fa fa-angle-up"></em>
       </button>
       
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-        (function() {
-            
-            
-            if (window.location.hostname == "localhost") return;
-
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            var disqus_shortname = 'yurigramming';
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript"
-      >comments powered by Disqus.</a
-    ></noscript
-  >
-  <a href="https://disqus.com/" class="dsq-brlink"
-    >comments powered by <span class="logo-disqus">Disqus</span></a
-  >
-
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yurigramming" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
     <footer>

@@ -173,8 +173,9 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
 <ul>
 <li><a href="#1%E8%A9%B1-%E5%B1%8B%E4%B8%8A%E3%81%A8-%E3%82%AE%E3%82%BF%E3%83%BC%E3%81%A8-%E5%85%88%E8%BC%A9%E3%81%A8">1話 屋上と、ギターと、先輩と。</a></li>
 <li><a href="#2%E8%A9%B1-%E5%88%9D%E6%81%8B%E3%81%A8-%E6%A1%9C%E3%81%A8-%E5%BE%8C%E8%BC%A9%E3%81%A8">2話 初恋と、桜と、後輩と。</a></li>
@@ -183,7 +184,8 @@
 <li><a href="#5%E8%A9%B1-%E5%A5%BD%E3%81%8D-%E3%83%87%E3%83%BC%E3%83%88-%E3%81%9D%E3%81%97%E3%81%A6">5話 好き、デート、そして…</a></li>
 <li><a href="#%E6%84%9F%E6%83%B3">感想</a></li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
+<!--endtoc-->
 <h2 id="1話-屋上と-ギターと-先輩と">1話 屋上と、ギターと、先輩と。</h2>
 <p>高校に入学した木野ひまりは、新入生歓迎会でバンド演奏をしていた3年生の朝凪依の歌を聞き”一目ボレ”する。その後、玄関で依を見かけたひまりは、そのことを依に直接伝えるが、依にとっては初めてのことで動揺してしまう。同級生のミキから屋上で1人演奏していることを聞いたひまりは、屋上に出向き再び依と出会う。玄関での&quot;一目ぼれ&quot;を告白と受けとった依は自分も一目ぼれをしたと伝えるが、ひまりの&quot;一目ボレ&quot;はファンになったという程度の意味だったことに気づいてしまう。</p>
 <blockquote>
@@ -235,10 +237,7 @@
       
 
 
-
     </article>
-    
-
       <script>
   document.addEventListener('scroll', function () {
     if (
@@ -263,32 +262,26 @@
         <em class="fa fa-angle-up"></em>
       </button>
       
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-        (function() {
-            
-            
-            if (window.location.hostname == "localhost") return;
-
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            var disqus_shortname = 'yurigramming';
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript"
-      >comments powered by Disqus.</a
-    ></noscript
-  >
-  <a href="https://disqus.com/" class="dsq-brlink"
-    >comments powered by <span class="logo-disqus">Disqus</span></a
-  >
-
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yurigramming" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
     <footer>

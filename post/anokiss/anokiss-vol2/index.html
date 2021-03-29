@@ -173,8 +173,9 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
 <ul>
 <li><a href="#6%E8%A9%B1-%E6%98%9F%E3%81%AE%E5%AD%A6%E5%BE%92">6話 星の学徒</a></li>
 <li><a href="#7%E8%A9%B1-%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88%E3%81%AE%E6%9C%80%E5%BE%8C">7話 ロマンチストの最後</a></li>
@@ -184,7 +185,8 @@
 <li><a href="#%E7%95%AA%E5%A4%96%E7%B7%A8-sumire-strikes">番外編 SUMIRE STRIKES!</a></li>
 <li><a href="#%E6%84%9F%E6%83%B3">感想</a></li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
+<!--endtoc-->
 <h2 id="6話-星の学徒">6話 星の学徒</h2>
 <p>天文部に所属する千春と愛と真夜はいつも一緒に行動するほど仲が良いが、真夜の受験が近づくにつれて変化が起こり始める。理学部へ進学し天文学を学びたい真夜は受験勉強のために一緒に行動する機会が少なくなっていく。真夜との別れの時を避けるために、愛は付属の大学への進学を勧め、お守りに買ったクマのぬいぐるみを真夜ではなくゆりねに渡してしまう。しかし、真夜には附属大に進学する気はない様子。後日、ゆりねはクマのぬいぐるみを愛に返し、勉強して同じ大学に進学すれば良いと提案する。希望を得た愛は真夜にぬいぐるみを渡し、合格するようにと言葉を送る。</p>
 <blockquote>
@@ -198,7 +200,7 @@
 </figure>
 
 <h2 id="7話-ロマンチストの最後">7話 ロマンチストの最後</h2>
-<p>手違いで寮の物置に閉じ込められてしまう真夜と千春。2人は千春が中学に進学した時から同室で、千春は入寮直後から真夜に片想いしている。真夜と離れがたく感じている千春はスマホを持っているにも関わらず、外には連絡せずに2人の時間を過ごすことを選ぶ。閉じ込められてから3時間後に瑞希とあやかに助け出される二人。<!-- raw HTML omitted -->
+<p>手違いで寮の物置に閉じ込められてしまう真夜と千春。2人は千春が中学に進学した時から同室で、千春は入寮直後から真夜に片想いしている。真夜と離れがたく感じている千春はスマホを持っているにも関わらず、外には連絡せずに2人の時間を過ごすことを選ぶ。閉じ込められてから3時間後に瑞希とあやかに助け出される二人。<br />
 ※千春が入寮したのが4年前（中1？）で、その時の真夜は中学3年生のはず。そうだとすると、現時点で3年間経っているわけで、そうだとすると3年間よろしくねという真夜のセリフは…？</p>
 <blockquote>
 <p>時間が止まればいいのに　あるいは　このまま誰にも見つからなくて　寒さと空腹で死んでしまったら　&ndash; 千春</p>
@@ -305,10 +307,7 @@
     
   </ul>
 
-
     </article>
-    
-
       <script>
   document.addEventListener('scroll', function () {
     if (
@@ -333,32 +332,26 @@
         <em class="fa fa-angle-up"></em>
       </button>
       
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-        (function() {
-            
-            
-            if (window.location.hostname == "localhost") return;
-
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            var disqus_shortname = 'yurigramming';
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript"
-      >comments powered by Disqus.</a
-    ></noscript
-  >
-  <a href="https://disqus.com/" class="dsq-brlink"
-    >comments powered by <span class="logo-disqus">Disqus</span></a
-  >
-
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yurigramming" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
     <footer>

@@ -172,8 +172,9 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
 <ul>
 <li><a href="#%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9">登場人物</a>
 <ul>
@@ -193,7 +194,8 @@
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+</div>
+<!--endtoc-->
 <blockquote>
 <p>凛子の初恋は中学生のとき。相手は家庭教師の女子大生・詩織。でも詩織は大学卒業後すぐ結婚すると決まっていた。凛子の初恋は思いを告げる事なく終わってしまう。</p>
 <p>それから2年後、高校生になった凛子はすっかり体系が変わり、大きくなった詩織と再会する。太ったことが原因で詩織の結婚が破談になり、今もひとりだと知ったとき、抑えていた凛子の想いが溢れ出して&mdash;。</p>
@@ -305,10 +307,7 @@
     
   </ul>
 
-
     </article>
-    
-
       <script>
   document.addEventListener('scroll', function () {
     if (
@@ -333,32 +332,26 @@
         <em class="fa fa-angle-up"></em>
       </button>
       
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-        (function() {
-            
-            
-            if (window.location.hostname == "localhost") return;
-
-            var dsq = document.createElement('script');
-            dsq.type = 'text/javascript';
-            dsq.async = true;
-            var disqus_shortname = 'yurigramming';
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-  <noscript
-    >Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript"
-      >comments powered by Disqus.</a
-    ></noscript
-  >
-  <a href="https://disqus.com/" class="dsq-brlink"
-    >comments powered by <span class="logo-disqus">Disqus</span></a
-  >
-
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yurigramming" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
     <footer>
