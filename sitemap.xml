@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marigold1287.github.io/diary/20210401/</loc>
-    <lastmod>2021-04-01T07:54:00+09:00</lastmod>
+    <loc>https://marigold1287.github.io/tags/anime/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://marigold1287.github.io/categories/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/tags/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/categories/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/post/aikatsu/aikatsu-ep061/</loc>
+    <lastmod>2021-04-01T17:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/post/aikatsu/aikatsu-ep060/</loc>
+    <lastmod>2021-04-01T09:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marigold1287.github.io/diary/20210401/</loc>
     <lastmod>2021-04-01T07:54:00+09:00</lastmod>
   </url>
   
@@ -23,33 +58,8 @@
   </url>
   
   <url>
-    <loc>https://marigold1287.github.io/tags/</loc>
-    <lastmod>2021-04-01T07:54:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marigold1287.github.io/</loc>
-    <lastmod>2021-04-01T07:54:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://marigold1287.github.io/diary/20210330/</loc>
     <lastmod>2021-03-30T23:59:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marigold1287.github.io/tags/anime/</loc>
-    <lastmod>2021-03-29T22:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marigold1287.github.io/tags/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84/</loc>
-    <lastmod>2021-03-29T22:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marigold1287.github.io/categories/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84/</loc>
-    <lastmod>2021-03-29T22:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -999,10 +1009,6 @@
   
   <url>
     <loc>https://marigold1287.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://marigold1287.github.io/post/aikatsu/aikatsu-ep060/</loc>
   </url>
   
 </urlset>
