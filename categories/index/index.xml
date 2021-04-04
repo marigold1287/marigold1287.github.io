@@ -14,6 +14,14 @@
 		<atom:link href="/categories/index/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 第65話　夢への扉</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep065/</link>
+			<pubDate>Mon, 05 Apr 2021 00:52:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep065/</guid>
+			<description>ティアラ学園長 　スタードリームフェスティバル＆カーニバル セイラ ドリアカ編入試験</description>
+		</item>
+      	
+		<item>
 			<title>アイカツ！ 第64話　ラッキーアイドル☆</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep064/</link>
 			<pubDate>Sun, 04 Apr 2021 21:51:00 +0900</pubDate>
@@ -83,14 +91,6 @@
 			<pubDate>Mon, 29 Mar 2021 00:23:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep058/</guid>
 			<description>マジカルタイム　セイきい　振り付けレッスン</description>
-		</item>
-      	
-		<item>
-			<title>トロピカル～ジュ！プリキュア 第5話　先輩参上！燃えろ！キュアフラミンゴ！</title>
-			<link>https://marigold1287.github.io/post/tropri/tro-ep05/</link>
-			<pubDate>Sun, 28 Mar 2021 15:27:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/tropri/tro-ep05/</guid>
-			<description>プリキュアはあと1人。トロピカをツルピカと間違えたチンピラに絡まれるまなつ。まなつのピンチを助けに来たのは&amp;hellip;滝沢あすか。 チンピ</description>
 		</item>
       	
 	</channel>
