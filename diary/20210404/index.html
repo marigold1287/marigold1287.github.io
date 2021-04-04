@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<title>hugoでlightboxを使ってみる</title>
+
+
+  
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175229094-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-175229094-2');
+  </script>
+  
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="https://marigold1287.github.io/index.xml"
+  title="ゆりぐらみんぐ"
+/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="hugoでlightboxを使ってみる"/>
+<meta name="twitter:description" content="hugoでlightboxを使う手順と正規表現についての覚え書き"/>
+
+
+
+<link href="https://marigold1287.github.io/css/lightbox.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://marigold1287.github.io/fontawesome/css/all.min.css" />
+
+<link
+  id="dark-mode-theme"
+  rel="stylesheet"
+  href="https://marigold1287.github.io/css/dark.css"
+/>
+
+<script>
+  var darkTheme = document.getElementById('dark-mode-theme')
+  var storedTheme = localStorage.getItem('dark-mode-storage')
+  if (storedTheme === 'dark') {
+    darkTheme.disabled = false
+  } else if (storedTheme === 'light') {
+    darkTheme.disabled = true
+  }
+</script>
+
+<script src="https://marigold1287.github.io/js/bundle.js"></script>
+<script src="https://marigold1287.github.io/js/instantpage.min.js" type="module" defer></script>
+<link id="custom-css" rel="stylesheet" href="https://marigold1287.github.io/css/customCSS.css" />
+<script src="https://marigold1287.github.io/js/lightbox-plus-jquery.min.js"></script>
+
+
+<meta name="generator" content="Hugo 0.75.0-DEV" />
+  </head>
+  <body>
+    
+  
+
+
+
+
+  <header>
+    <nav class="navbar">
+  <div class="nav">
+    
+        <a href="https://marigold1287.github.io/" class="nav-logo">
+        <img
+          src="https://marigold1287.github.io/images/banner.png"
+          width="200"
+          height="75"
+          alt="Logo"
+        />
+        </a>
+    
+
+    <ul class="nav-links">
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/post" id="Post"
+              ><em class="fas fa-book-open fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/diary" id="diary"
+              ><em class="fas fa-book fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/note" id="Note"
+              ><em class="fas fa-desktop fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/tags" id="Tags"
+              ><em class="fas fa-tag fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/categories" id="Categories"
+              ><em class="fas fa-folder-open fa-lg"></em
+            ></a>
+          </li>
+          
+      
+        
+          <li>
+            <a href="https://marigold1287.github.io/archives" id="Archives"
+              ><em class="fas fa-archive fa-lg"></em
+            ></a>
+          </li>
+          
+      
+    </ul>
+  </div>
+</nav>
+
+    <div class="intro-header">
+      <div class="container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a></li>
+<li class="breadcrumb-item"><a href="https://marigold1287.github.io/diary/">日記</a></li>
+<li class="breadcrumb-item active" aria-current="page">hugoでlightboxを使ってみる</li>
+  </ol>
+</nav>
+        <div class="diary-heading">
+          
+            <h1>hugoでlightboxを使ってみる</h1>
+          
+          
+            <span class="meta-post">
+  <em class="fa fa-calendar-alt"></em
+  >&nbsp;Apr 4, 2021
+  
+    &nbsp;&nbsp;&nbsp;<em class="fa fa-folder-open"></em>&nbsp;
+    
+      <a href="https://marigold1287.github.io/categories/diary/">Diary</a
+      >&nbsp;
+    
+  
+</span>
+
+          
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+
+    
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      
+  <p>今日はアイカツプラネットとトロプリの放送日。日曜日だけはアイカツプラネットに間に合うようにと早起きしてるこの頃です。</p>
+<p>今日のトロプリ、ほんとうによかった。あすか先輩がこんなに早く本性を現すと思ってなかったし、女王様レッスンで色んな表情を見せるローラも可愛かったし。。。</p>
+<p>感想は<a href="https://marigold1287.github.io/post/aipla/aipla-ep13/">アイプラ</a>とか<a href="https://marigold1287.github.io/post/tropri/tro-ep06/">トロプリ</a>です。</p>
+<p>このサイトはemacsのorg modeで原稿を書いてox hugoでmarkdownファイルに変換してという過程を経ているんだけど、今回は画像をクリックすると大きな画像がポップアップされるように改良しました。</p>
+<p>これは<a href="https://lokeshdhakar.com/projects/lightbox2/">lightbox</a>というスクリプトを使っています。</p>
+<p>HPの手順の通りですが、githubページからzipファイルを落とす。そして、\distフォルダに入っているcssとjsファイルをhugoのstatic\css static\jsフォルダに移す。</p>
+<p>*.minというのは圧縮された軽量版らしいのでこっちを使ったほうが良いと思われます。<br />
+*これまでjqueryを使用していないならplus-jqueryという方を、そうでなければlightbox.jsを使います。</p>
+<p>次にlayoutフォルダにあるhead.htmlを開いて、</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.BaseURL }}css/lightbox.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> /&gt;
+&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Site.BaseURL }}js/lightbox-plus-jquery.min.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
+</code></pre></div><p>のような感じに追記して、両ファイルが読み込まれるようにする。</p>
+<p>org mode上では以下のようにして画像を貼ります。</p>
+<p>例えば、</p>
+<figure class="pict"><a href="https://marigold1287.github.io/ox-hugo/tro-ep06-1.jpg" rel="lightbox[list]">
+    <img src="https://marigold1287.github.io/ox-hugo/tro-ep06-1.jpg"/> </a>
+</figure>
+
+<p>は</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs" data-lang="emacs"><span style="color:#960050;background-color:#1e0010">#</span>+attr_html: :class pict :rel lightbox[<span style="color:#a6e22e">list</span>]
+[[file:ox-hugo/tro-ep06-1.jpg][file:ox-hugo/tro-ep06-1.jpg]]
+</code></pre></div><p>となっていて、「:rel lightbox」というのがlightboxを有効にするときに必要になります。こうしておくと、html上で、</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">figure</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;pict&#34;</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://localhost:1313/ox-hugo/tro-ep06-1.jpg&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lightbox[list]&#34;</span>&gt;
+    &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://localhost:1313/ox-hugo/tro-ep06-1.jpg&#34;</span>&gt; &lt;/<span style="color:#f92672">a</span>&gt;
+&lt;/<span style="color:#f92672">figure</span>&gt;
+</code></pre></div><p>みたいな感じになります。</p>
+<p>[list]というのは同じページに画像が複数ある時のグループ化に使います。例えば、アイプラの方を見ると画像が9枚貼ってあって、どれかをクリックすると左下にImage x of 9となっています。これは、画像がすべてlistというグループに所属しているからで、左右の矢印をクリックすると別の画像に切り替えられます。複数のグループに分けたければ、[]内の名前を変えれば良いです。</p>
+<p>あと、これは自分用の備忘録ですが、画像が30枚あると、いちいち「ep06-1」「ep06-2」などと書き換えているのが面倒になります。</p>
+<p>emacsの正規検索-置換機能 query-replace-regexp を使うと、連番で置換することができて、例えば、</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs" data-lang="emacs">[[file:ox-hugo/tro-ep06-1.jpg][file:ox-hugo/tro-ep06-1.jpg]]
+
+[[file:ox-hugo/tro-ep06-1.jpg][file:ox-hugo/tro-ep06-1.jpg]]
+
+[[file:ox-hugo/tro-ep06-1.jpg][file:ox-hugo/tro-ep06-1.jpg]]
+</code></pre></div><p>みたいに画像を貼る場所に同じコードを置いてから、query-replace-regexpでまず、検索条件は</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs" data-lang="emacs">\[\[file:ox-hugo/tro-ep06-.?.jpg\]\[file:ox-hugo/tro-ep06-.?.jpg\]\]
+</code></pre></div><p>とします。正規表現なのでバックスラッシュで[を打ち消す。「1」のところは任意の一文字「.」と直前の文字が0または1文字ある場合を示す「?」に置き換えて0~99までヒットするようにします。</p>
+<p>変換後は</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs" data-lang="emacs">[[file:ox-hugo/tro-ep06-\,(<span style="color:#a6e22e">+</span> \# <span style="color:#ae81ff">1</span>)<span style="color:#f92672">.</span>jpg][file:ox-hugo/tro-ep06-\,(<span style="color:#a6e22e">+</span> \# <span style="color:#ae81ff">1</span>)<span style="color:#f92672">.</span>jpg]]
+</code></pre></div><p>こっちは正規検索ではないので[をバックスラッシュで打ち消す必要はないです。「\,(+ \# 1)」が1から始まる連番で置き換えるためのやり方です。こうしておくと、</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs" data-lang="emacs">[[file:ox-hugo/tro-ep06-1.jpg][file:ox-hugo/tro-ep06-1.jpg]]
+
+[[file:ox-hugo/tro-ep06-2.jpg][file:ox-hugo/tro-ep06-2.jpg]]
+
+[[file:ox-hugo/tro-ep06-3.jpg][file:ox-hugo/tro-ep06-3.jpg]]
+</code></pre></div><p>と簡単に(?)置き換えられます。もっとましな方法があるんでしょうけど&hellip;。</p>
+<p>参考にしたサイト<br>
+<a href="https://lists.gnu.org/archive/html/emacs-orgmode/2010-10/msg00692.html">https://lists.gnu.org/archive/html/emacs-orgmode/2010-10/msg00692.html</a><br>
+<a href="http://wp.hebon.net/emacs/?p=168">http://wp.hebon.net/emacs/?p=168</a></p>
+
+
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="https://marigold1287.github.io/tags/diary/">Diary</a
+            >&nbsp;
+          
+        </div>
+      
+      
+
+
+  <h3>See Also</h3>
+  <ul>
+    
+      <li><a href="https://marigold1287.github.io/diary/20210402/">2021/04/02</a></li>
+    
+      <li><a href="https://marigold1287.github.io/diary/20210401/">2021/04/01</a></li>
+    
+      <li><a href="https://marigold1287.github.io/diary/20210330/">2021/03/30</a></li>
+    
+      <li><a href="https://marigold1287.github.io/diary/20210328/">2021/03/28 芸能人はカードが命！第24回</a></li>
+    
+  </ul>
+
+    </article>
+      <script>
+  document.addEventListener('scroll', function () {
+    if (
+      document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50
+    ) {
+      document.getElementById('backtotopButton').style.opacity = '1'
+      document.getElementById('backtotopButton').style.transition = '0.5s'
+    } else {
+      document.getElementById('backtotopButton').style.opacity = '0'
+      document.getElementById('backtotopButton').style.transition = '0.5s'
+    }
+  })
+
+  function topFunction() {
+    document.body.scrollTop = 0 
+    document.documentElement.scrollTop = 0 
+  }
+</script>
+
+      <button onclick="topFunction()" id="backtotopButton">
+        <em class="fa fa-angle-up"></em>
+      </button>
+      
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yurigramming" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+    <footer>
+  
+  <div>
+    
+      <a href="https://twitter.com/marigold1332" name="Twitter"
+        ><em class="fab fa-twitter fa-lg"></em
+      ></a>
+    
+
+
+
+
+  
+  <div class="container">
+    <p class="credits copyright">
+      <a href="https://marigold1287.github.io/about">Marigold</a>
+      &nbsp;&copy;
+      2021
+      
+        &nbsp;/&nbsp;
+        <a href="https://marigold1287.github.io/">ゆりぐらみんぐ</a>
+      
+      &nbsp;&ndash;&nbsp;
+      <em class="fas fa-moon" id="dark-mode-toggle"></em>
+    </p>
+
+    <p class="credits theme-by">
+      Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;
+      Theme
+      <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
