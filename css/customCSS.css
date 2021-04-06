@@ -27,6 +27,11 @@
 	width: 300px;
 }
 
+.right {
+  text-align: right;
+  color: gray;
+}
+
 .nav-links {
   margin: 0;
   padding: 0;
