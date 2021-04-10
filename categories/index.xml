@@ -9,10 +9,18 @@
 		
 		<managingEditor>Page(/categories) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Fri, 09 Apr 2021 23:31:00 +0900</lastBuildDate>
+  		<lastBuildDate>Sat, 10 Apr 2021 23:02:00 +0900</lastBuildDate>
 		
 		<atom:link href="/categories/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツ！ 第73話　ハッピィ☆アイドルフェス 2nd Day!</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep073/</link>
+			<pubDate>Sat, 10 Apr 2021 23:02:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep073/</guid>
+			<description>スタードリームフェスティバル＆カーニバル　ドリームスター</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 第72話　ハッピィ☆アイドルフェス 1st Day!</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep072/</link>
@@ -83,14 +91,6 @@
 			<pubDate>Sun, 04 Apr 2021 21:51:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep064/</guid>
 			<description>中学最後の新年　福女レース</description>
-		</item>
-      	
-		<item>
-			<title>アイカツプラネット！ 第13話　揺れる想い</title>
-			<link>https://marigold1287.github.io/post/aipla/aipla-ep13/</link>
-			<pubDate>Sun, 04 Apr 2021 19:24:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aipla/aipla-ep13/</guid>
-			<description>ハナの順位は35位。週末はハッピードリームフェス、対戦相手はキューピットに決まります。 3D百合っていうのあるのでは&amp;hellip;？ 帰国？し</description>
 		</item>
       	
 	</channel>
