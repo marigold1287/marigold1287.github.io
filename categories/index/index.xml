@@ -14,11 +14,27 @@
 		<atom:link href="/categories/index/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 第79話　Yes! ベストパートナー</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep079/</link>
+			<pubDate>Fri, 23 Apr 2021 19:40:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep079/</guid>
+			<description>パートナーズカップ　かえユリ</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第78話　ミラクルはじまる！</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep078/</link>
+			<pubDate>Thu, 22 Apr 2021 16:38:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep078/</guid>
+			<description>ダブルエム　夏樹みくる</description>
+		</item>
+      	
+		<item>
 			<title>アイカツ！ 第77話　目指してるスター☆彡</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep077/</link>
 			<pubDate>Tue, 20 Apr 2021 19:14:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep077/</guid>
-			<description>初めての登校日なのにバスに乗り遅れてしまったあかり。 カレンダーガールを口ずさみながら&amp;hellip;。 もう、ほんとにうれしそう&amp;hellip</description>
+			<description>アイカツナビＰRライブ　あかりの登校初日</description>
 		</item>
       	
 		<item>
@@ -75,22 +91,6 @@
 			<pubDate>Wed, 14 Apr 2021 08:19:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep074/</guid>
 			<description>卒業式</description>
-		</item>
-      	
-		<item>
-			<title>トロピカル～ジュ！プリキュア 第7話　やってくる！海の妖精くるるん！</title>
-			<link>https://marigold1287.github.io/post/tropri/tro-ep07/</link>
-			<pubDate>Mon, 12 Apr 2021 00:43:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/tropri/tro-ep07/</guid>
-			<description>今回からこれまでのお話を教えてくれるように トロピカる部の活動開始。あすか先輩楽しそう。さんごとみのりは息も絶え絶えですが&amp;hellip;。こ</description>
-		</item>
-      	
-		<item>
-			<title>アイカツプラネット！ 第14話　これが私の走る道</title>
-			<link>https://marigold1287.github.io/post/aipla/aipla-ep14/</link>
-			<pubDate>Sun, 11 Apr 2021 21:08:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aipla/aipla-ep14/</guid>
-			<description>プラネットマラソン</description>
 		</item>
       	
 	</channel>
