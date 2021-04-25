@@ -9,10 +9,34 @@
 		
 		<managingEditor>Page(/tags/anime) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Fri, 23 Apr 2021 19:40:00 +0900</lastBuildDate>
+  		<lastBuildDate>Sun, 25 Apr 2021 22:46:00 +0900</lastBuildDate>
 		
 		<atom:link href="/tags/anime/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツプラネット！ 第16話　パジャマパーティーナイト</title>
+			<link>https://marigold1287.github.io/post/aipla/aipla-ep16/</link>
+			<pubDate>Sun, 25 Apr 2021 22:46:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aipla/aipla-ep16/</guid>
+			<description>ローズとのバトルステージ</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第81話　ビビビッ☆パートナー</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep081/</link>
+			<pubDate>Sun, 25 Apr 2021 00:43:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep081/</guid>
+			<description>パートナーズカップ　みくると美月</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第80話　アイカツ！ブートキャンプ</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep080/</link>
+			<pubDate>Sat, 24 Apr 2021 23:49:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep080/</guid>
+			<description>アイカツブートキャンプ</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 第79話　Yes! ベストパートナー</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep079/</link>
@@ -67,30 +91,6 @@
 			<pubDate>Sun, 18 Apr 2021 09:25:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aipla/aipla-ep15/</guid>
 			<description>サプライズ仲直りパーティー　明咲デビュー</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第75話　アゲイン♪オフタイム</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep075/</link>
-			<pubDate>Sat, 17 Apr 2021 22:30:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep075/</guid>
-			<description>オフタイム　神崎美月シークレットライブ</description>
-		</item>
-      	
-		<item>
-			<title>合格のための! やさしい三角関係入門 1巻</title>
-			<link>https://marigold1287.github.io/post/tri/tri-vol1/</link>
-			<pubDate>Sat, 17 Apr 2021 20:39:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/tri/tri-vol1/</guid>
-			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第74話　桜色メモリーズ</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep074/</link>
-			<pubDate>Wed, 14 Apr 2021 08:19:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep074/</guid>
-			<description>卒業式</description>
 		</item>
       	
 	</channel>
