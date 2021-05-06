@@ -9,10 +9,42 @@
 		
 		<managingEditor>Page(/categories/アイカツプラネット) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Sun, 02 May 2021 14:46:00 +0900</lastBuildDate>
+  		<lastBuildDate>Thu, 06 May 2021 22:24:00 +0900</lastBuildDate>
 		
 		<atom:link href="/categories/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%E3%83%97%E3%83%A9%E3%83%8D%E3%83%83%E3%83%88/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツプラネット！ 第4話 やまとなでしこロック変化</title>
+			<link>https://marigold1287.github.io/post/aipla/aipla-ep08/</link>
+			<pubDate>Thu, 06 May 2021 22:24:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aipla/aipla-ep08/</guid>
+			<description>響子先輩 なりたい自分になれる場所</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第85話　月の砂漠の幻想曲</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep085/</link>
+			<pubDate>Wed, 05 May 2021 16:57:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep085/</guid>
+			<description>アラビアンロマンス</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第84話　咲いてミラクル！</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep084/</link>
+			<pubDate>Wed, 05 May 2021 13:51:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep084/</guid>
+			<description>みくる単独ステージ　Vivid Kissの星座プレミアムドレス</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第83話　おとめRAINBOW!</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep083/</link>
+			<pubDate>Tue, 04 May 2021 17:59:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep083/</guid>
+			<description>おとめ幼稚園　Happy rainbowの星座プレミアムドレス</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 第82話　めざせ☆最高のパートナー</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep082/</link>
@@ -59,38 +91,6 @@
 			<pubDate>Sun, 25 Apr 2021 00:43:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep081/</guid>
 			<description>パートナーズカップ　みくると美月</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第80話　アイカツ！ブートキャンプ</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep080/</link>
-			<pubDate>Sat, 24 Apr 2021 23:49:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep080/</guid>
-			<description>アイカツブートキャンプ</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第79話　Yes! ベストパートナー</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep079/</link>
-			<pubDate>Fri, 23 Apr 2021 19:40:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep079/</guid>
-			<description>パートナーズカップ　かえユリ</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第78話　ミラクルはじまる！</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep078/</link>
-			<pubDate>Thu, 22 Apr 2021 16:38:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep078/</guid>
-			<description>ダブルエム　夏樹みくる</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第77話　目指してるスター☆彡</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep077/</link>
-			<pubDate>Tue, 20 Apr 2021 19:14:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep077/</guid>
-			<description>アイカツナビＰRライブ　あかりの登校初日</description>
 		</item>
       	
 	</channel>
