@@ -14,14 +14,6 @@
 		<atom:link href="/tags/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84/" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>test</title>
-			<link>https://marigold1287.github.io/post/tropri/test/</link>
-			<pubDate>Fri, 21 May 2021 09:16:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/tropri/test/</guid>
-			<description>test</description>
-		</item>
-      	
-		<item>
 			<title>トロピカル～ジュ！プリキュア 第12話　没収！アクアポットは校則違反！？</title>
 			<link>https://marigold1287.github.io/post/tropri/tro-e012/</link>
 			<pubDate>Fri, 21 May 2021 05:00:00 +0900</pubDate>
@@ -91,6 +83,14 @@
 			<pubDate>Thu, 13 May 2021 11:12:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep088/</guid>
 			<description>対決ライブ後編</description>
+		</item>
+      	
+		<item>
+			<title>アイカツ！ 第87話　ソレイユ☆ライジング！</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep087/</link>
+			<pubDate>Mon, 10 May 2021 21:52:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep087/</guid>
+			<description>ソレイユ再始動</description>
 		</item>
       	
 	</channel>
