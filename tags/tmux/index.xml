@@ -14,6 +14,14 @@
 		<atom:link href="/tags/tmux/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 第103話　いいこと占い</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep103/</link>
+			<pubDate>Sat, 29 May 2021 00:03:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep103/</guid>
+			<description>感想とかあらすじ。</description>
+		</item>
+      	
+		<item>
 			<title>アイカツ！ 第102話　アイカツしよう☆Ready Go！</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep102/</link>
 			<pubDate>Thu, 27 May 2021 00:45:00 +0900</pubDate>
@@ -83,14 +91,6 @@
 			<pubDate>Sun, 23 May 2021 13:14:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aipla/aipla-ep20/</guid>
 			<description>あらすじと感想</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第95話　夢の咲く場所</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep095/</link>
-			<pubDate>Fri, 21 May 2021 23:54:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep095/</guid>
-			<description>感想とかあらすじ。学校取り換えっこ</description>
 		</item>
       	
 	</channel>
