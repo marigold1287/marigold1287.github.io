@@ -19,6 +19,25 @@
        url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Modern Browsers */
 }
 
+.chara_hinaki {
+	color: #d4bc76;
+}
+
+.chara_sumire {
+	color: #b691d3;
+}
+
+.chara_akari {
+	color: #d68546;
+}
+
+.chara_ichigo {
+	color: #f8d74a;
+}
+
+.chara_hime {
+	color: #a8874a;
+}
 
 .pict {
   text-align: left;
