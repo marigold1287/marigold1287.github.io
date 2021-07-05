@@ -14,6 +14,14 @@
 		<atom:link href="/tags/media-factory/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>アイカツ！ 大スター宮いちごまつり</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-mov/</link>
+			<pubDate>Sun, 04 Jul 2021 20:05:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-mov/</guid>
+			<description>Table of Contents 一大プロジェクト始動！ 記者会見 シンガーソングライター花音 美月の決意 いちごの新曲 あかりの大捜索 ついに開幕！大スター宮いちごまつり！ クリス</description>
+		</item>
+      	
+		<item>
 			<title>トロピカル～ジュ！プリキュア　第18話　歩くよ！泳ぐよ！ローラの初登校！</title>
 			<link>https://marigold1287.github.io/post/tropri/tro-ep18/</link>
 			<pubDate>Mon, 28 Jun 2021 18:47:00 +0900</pubDate>
@@ -83,14 +91,6 @@
 			<pubDate>Sun, 20 Jun 2021 18:58:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/tropri/tro-ep17/</guid>
 			<description>あらすじと感想です。</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第111話　ディア マイ ファン！</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep111/</link>
-			<pubDate>Sun, 20 Jun 2021 00:36:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep111/</guid>
-			<description>感想とかあらすじ。</description>
 		</item>
       	
 	</channel>
