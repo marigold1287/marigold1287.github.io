@@ -9,10 +9,34 @@
 		
 		<managingEditor>Page(/categories/トロピカルージュプリキュア) (Marigold)</managingEditor>
     	
-  		<lastBuildDate>Mon, 28 Jun 2021 18:47:00 +0900</lastBuildDate>
+  		<lastBuildDate>Sun, 11 Jul 2021 18:17:00 +0900</lastBuildDate>
 		
 		<atom:link href="/categories/%E3%83%88%E3%83%AD%E3%83%94%E3%82%AB%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%A5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>アイカツ！ 第117話　歌声はスミレ色</title>
+			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep117/</link>
+			<pubDate>Mon, 12 Jul 2021 10:05:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep117/</guid>
+			<description>感想とかあらすじ。</description>
+		</item>
+      	
+		<item>
+			<title>トロピカル～ジュ！プリキュア　第20話　名探偵みのりん！消えたメロンパン事件！</title>
+			<link>https://marigold1287.github.io/post/tropri/tro-ep20/</link>
+			<pubDate>Sun, 11 Jul 2021 18:17:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/tropri/tro-ep20/</guid>
+			<description>感想とかあらすじ。</description>
+		</item>
+      	
+		<item>
+			<title>トロピカル～ジュ！プリキュア　第19話　まなつパニック！学校の七不思議！</title>
+			<link>https://marigold1287.github.io/post/tropri/tro-ep19/</link>
+			<pubDate>Thu, 08 Jul 2021 21:25:00 +0900</pubDate>
+			<guid>https://marigold1287.github.io/post/tropri/tro-ep19/</guid>
+			<description>感想とかあらすじ。</description>
+		</item>
+      	
 		<item>
 			<title>アイカツ！ 大スター宮いちごまつり</title>
 			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-mov/</link>
@@ -67,30 +91,6 @@
 			<pubDate>Mon, 21 Jun 2021 19:47:00 +0900</pubDate>
 			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep113/</guid>
 			<description>感想とかあらすじ。</description>
-		</item>
-      	
-		<item>
-			<title>アイカツ！ 第112話　GOGO！いちご応援隊</title>
-			<link>https://marigold1287.github.io/post/aikatsu/aikatsu-ep112/</link>
-			<pubDate>Mon, 21 Jun 2021 15:07:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aikatsu/aikatsu-ep112/</guid>
-			<description>感想とかあらすじ。</description>
-		</item>
-      	
-		<item>
-			<title>アイカツプラネット！ 第24話　みんなのリクエスト</title>
-			<link>https://marigold1287.github.io/post/aipla/aipla-ep24/</link>
-			<pubDate>Mon, 21 Jun 2021 09:15:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/aipla/aipla-ep24/</guid>
-			<description>ハナのおハナしちゃんねる</description>
-		</item>
-      	
-		<item>
-			<title>トロピカル～ジュ！プリキュア 第17話　人魚の奇跡！変身！キュアラメール！</title>
-			<link>https://marigold1287.github.io/post/tropri/tro-ep17/</link>
-			<pubDate>Sun, 20 Jun 2021 18:58:00 +0900</pubDate>
-			<guid>https://marigold1287.github.io/post/tropri/tro-ep17/</guid>
-			<description>あらすじと感想です。</description>
 		</item>
       	
 	</channel>
