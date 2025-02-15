@@ -1,0 +1,57 @@
+#+TITLE: Hugoを使ってホームページを作成する
+#+DATE: 2025-02-15T10:54:06+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+TAGS[]: hugo
+#+CATEGORIES: tech
+このホームページは静的サイトジェネレータHugoでできている。
+* インストール
+#+begin_src shell
+sudo snap install hugo
+#+end_src
+windowsなら https://github.com/gohugoio/hugo からwindows用のzipファイルをダウンロードして解凍する。
+* ホームページ作成
+ホームページを作成したいディレクトリで
+
+~hugo new site SITENAME~
+
+を実行すると、 ~SITENAME~ というフォルダが作成される。
+
+中を見ると
+#+begin_src bash
+ls SITENAME
+archetypes/  config.toml*  content/  data/  layouts/  public/  static/  themes/
+#+end_src
+となっている。
+* ホームページを確認する
+~config.toml~ が保存されているディレクトリで
+
+#+begin_src bash
+hugo server
+#+end_src
+
+を実行する。
+
+http://localhost:1313/ にアクセスすると作成されたホームページを確認することができる。
+* Themeを導入する
+このままでは味気ないのでテーマを導入する。
+[[https://themes.gohugo.io/][公式HP]]に色々なテーマがあるので好みのものを見つける。
+
+ここでは私が使っている[[https://github.com/adityatelange/hugo-PaperMod][Hugo-PaperMod]]を使うことにする。
+このテーマは見た目が綺麗なのはもちろんのこと各種説明も充実していて使い勝手が非常に良いのでオススメ。
+インストールの方法も以下に分かりやすくまとめられている([[https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/][Installation | Update | PaperMod]])
+
+#+begin_src bash
+git init
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule update --init --recursive
+# needed when you reclone your repo (submodules may not get cloned automatically)
+#+end_src
+
+テーマを有効化するために ~hugo.toml~ に ~theme = "Papermod"~ を追記する(値はフォルダ名と同じにする)。
+
+* サイトをビルドする
+~hugo~ コマンドでサイトをビルドすることができ、結果は ~public~ フォルダに保存される。
+
+これをサーバーにアップロードすればホームページを公開することが出来る。
+

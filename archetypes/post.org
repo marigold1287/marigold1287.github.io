@@ -1,0 +1,7 @@
+#+TITLE: {{ replace .File.ContentBaseName "-" " " | title }}
+#+DATE: {{ .Date }}
+#+AUTHOR: K
+#+DRAFT: true
+#+TAGS[]:
+#+CATEGORIES:
+

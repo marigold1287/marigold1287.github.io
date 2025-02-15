@@ -1,0 +1,39 @@
+#+TITLE: Github Pagesを使ってhugoのホームページをdeployする
+#+DATE: 2025-02-15T11:51:24+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+TAGS[]: hugo
+#+CATEGORIES: tech
+* Pages用のリポジトリを作る
+名前は ~username.github.io~ としなくてはならない。
+
+* github actionを使う
+githubにはソースとなるファイルをアップロードして、github actionで
+サイトをビルド、デプロイする。
+** gitリポジトリを作成
+configファイルを設置しているディレクトリで ~git init~ を実行
+** publicフォルダを管理外に置く
+#+begin_src bash
+echo "/public" > .gitignore
+#+end_src
+でpublicフォルダを管理外におく。
+** ファイルを追加し、コミットする
+#+begin_src bash
+git add .
+git commit -m "first commit"
+#+end_src
+** githubでリポジトリを作成する
+#+begin_src bash
+git remote add origin git@github.com:marigold1287/marigold1287.github.io.git
+#+end_src
+でリモートリポジトリを追加する。
+** pushする
+#+begin_src bash
+git push origin main
+#+end_src
+** Github actionsの設定
+githubにて ~Settings-Pages-Build and deployment~ とたどって
+Github Actionsを選択する。
+
+選択肢の中にある ~hugo~ をクリックすると
+~pages.yml~ というworkflowが自動で生成されるのでcommitする。
