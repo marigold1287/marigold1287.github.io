@@ -1,6 +1,7 @@
 #+TITLE: Github Pagesを使ってhugoのホームページをdeployする
 #+DATE: 2025-02-15T11:51:24+09:00
 #+AUTHOR: K
+#+SLUG: deploy-hugo-github-pages
 #+DRAFT: false
 #+TAGS[]: hugo
 #+CATEGORIES: tech
@@ -31,9 +32,18 @@ git remote add origin git@github.com:marigold1287/marigold1287.github.io.git
 #+begin_src bash
 git push origin main
 #+end_src
+
+[[/post/ホームページを開設してみる]]
+[[{{< relref path="ホームページを開設してみる.md" >}}][参照]]
 ** Github actionsの設定
 githubにて ~Settings-Pages-Build and deployment~ とたどって
 Github Actionsを選択する。
 
 選択肢の中にある ~hugo~ をクリックすると
 ~pages.yml~ というworkflowが自動で生成されるのでcommitする。
+** workflowファイルをPullする
+ローカルにこのファイルを置いておかないとpushできないのでpullしておく
+#+begin_src bash
+git pull origin main
+#+end_src
+
