@@ -1,0 +1,18 @@
+#+TITLE: Org-modeでHugoを使うにゃ！
+#+DATE: 2025-02-15T07:34:56+09:00
+#+AUTHOR: 猫耳メイド
+#+DRAFT: true
+#+TAGS[]: hugo org-mode
+#+CATEGORIES: tech blog
+* Org-modeをそのままHugoで使えるにゃ！
+  最近のHugoは `org` フォーマットを直接パースできるから、
+  ~ox-hugo~ を使わなくても `.org` のままでOKにゃ！✨
+
+  #+begin_src javascript
+  function hello() {
+    alert("Hello world")
+  }
+  #+end_src
+
+* aaa
+** aaa

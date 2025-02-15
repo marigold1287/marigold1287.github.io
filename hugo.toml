@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'jp'
+title = "K's room"
+theme = "PaperMod"
+[params]
+        description = "わたしのホームページ!"
+        author = "marigold"
+        ShowBreadCrumbs = true
+
+        [params.homeInfoParams]
+                Title = "K's room"
+                Content = "わたしのoutputスペース"
+
+[outputs]
+        home = ["HTML", "RSS", "JSON"]
