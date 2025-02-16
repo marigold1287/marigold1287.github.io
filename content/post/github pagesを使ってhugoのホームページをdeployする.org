@@ -33,8 +33,6 @@ git remote add origin git@github.com:marigold1287/marigold1287.github.io.git
 git push origin main
 #+end_src
 
-[[/post/ホームページを開設してみる]]
-[[{{< relref path="ホームページを開設してみる.md" >}}][参照]]
 ** Github actionsの設定
 githubにて ~Settings-Pages-Build and deployment~ とたどって
 Github Actionsを選択する。

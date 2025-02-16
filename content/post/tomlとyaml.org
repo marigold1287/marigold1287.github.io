@@ -1,0 +1,60 @@
+#+TITLE: Tomlとyaml
+#+DATE: 2025-02-16T06:11:48+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+TAGS[]: hugo
+#+CATEGORIES: tech
+[[https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/][paperMod]]設定方法
+
+* コンバータ
+https://fixpoint.github.io/yaml-toml-converter/ で相互に変換できる。
+* TOML
+** Table
+~[]~ はTableをあらわす
+
+#+begin_src toml
+[table]
+key1 = "A"
+key2 = 1
+#+end_src
+"table"に属するkey1とkey2。値は"A"と1
+
+同じ名前のテーブルは1つしか作れない。
+** Table 配列
+~[[]]~ はテーブル配列。menuに表示するリストなどはこれを使う。
+ならmenuとかicon群とか。
+
+#+begin_src toml
+[menu]
+          [[menu.main]]
+              identifier = "categories"
+              name = "categories"
+              url = "/categories/"
+              weight = 10
+
+          [[menu.main]]
+                identifier = "tags"
+                name = "tags"
+                url = "/tags/"
+                weight = 20
+
+#+end_src
+* YAML
+同じものをYAMLで書くとこうなる。
+
+#+begin_src yaml
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+#+end_src

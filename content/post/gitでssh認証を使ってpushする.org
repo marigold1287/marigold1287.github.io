@@ -1,0 +1,40 @@
+#+TITLE: Gitでssh認証を使ってpushする
+#+DATE: 2025-02-15T12:52:35+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+SLUG: git-use-ssh
+#+TAGS[]: git
+#+CATEGORIES: tech
+* sshキーの確認
+#+begin_src bash
+  ls -al ~/.ssh
+#+end_src
+以下のいずれかが公開鍵となる
+- id_rsa.pub
+- id_ecdsa.pub
+- id_ed25519.pub
+* キーを作る
+#+begin_src bash
+  ssh-keygen -t rsa -b 4096 -C "mail@example.com"
+#+end_src
+パスフレーズはなくてもいい。
+* 公開鍵情報をgithubに登録する。
+~id_rsa.pub~ ファイルを開いて中身をコピーする
+
+[[https://github.com/settings/keys][github]]でNew SSH keyを選択し、Titleを決めて、コピーしたキーを貼りつける。
+* 認証する
+Bash上で以下を実行する
+#+begin_src bash
+  ssh -T git@github.com
+#+end_src
+以下のような警告が出てきた場合は、yesを押す
+#+begin_example
+  > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+  > RSA key fingerprint is SHA256:........
+  > Are you sure you want to continue connecting (yes/no)?
+#+end_example
+成功すると以下のメッセージが表示される。
+#+begin_example
+  > Hi username! You've successfully authenticated, but GitHub does not
+  > provide shell access.
+#+end_example

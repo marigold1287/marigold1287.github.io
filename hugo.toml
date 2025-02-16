@@ -6,6 +6,7 @@ theme = "PaperMod"
         description = "わたしのホームページ!"
         author = "marigold"
         ShowBreadCrumbs = true
+        ShowCodeCopyButtons = true
 
         [params.homeInfoParams]
                 Title = "K's room"
@@ -32,3 +33,5 @@ theme = "PaperMod"
                 name = "search"
                 url = "/search/"
                 weight = 30
+
+
