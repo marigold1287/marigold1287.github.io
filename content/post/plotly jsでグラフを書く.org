@@ -1,0 +1,64 @@
+#+TITLE: Plotly Jsでグラフを書く
+#+DATE: 2025-02-16T18:28:55+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+TAGS[]:
+#+CATEGORIES:
+* js読み込み
+#+begin_src html
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLOTLY</title>
+    <script src="https://cdn.plot.ly/plotly-3.0.0.min.js" charset="utf-8"></script>
+</head>
+#+end_src
+* mainにグラフを書くためのスペースを作る
+#+begin_src html
+<div id="plotly-container">
+
+</div>
+#+end_src
+* 棒グラフを書いてみる
+https://plotly.com/javascript/bar-charts/
+#+begin_src javascript
+<script>
+    plotData();
+
+function plotData() {
+    // Plot Area
+    const plotDiv = document.getElementById('plotly-container');
+
+    const traces = [];
+
+    // 年ごとの収支
+    const data = {
+        "year": [2010, 2011, 2012, 2013],
+        "income": [1000000, 2000000, 3000000, 4000000],
+        "expense": [500000, 1000000, 2000000, 3000000]
+    }
+    data.balance = data.income.map((value, index) => value - data.expense[index]);
+
+    // 棒グラフとして追加
+    traces.push({x: data.year, y: data.income, name: "income", type: "bar"})
+    traces.push({x: data.year, y: data.expense, name: "expense", type: "bar"})
+    traces.push({x: data.year, y: data.balance, name: "balance", type: "bar"})
+
+    // レイアウト設定
+    const layout = {
+        barmode: 'group',
+        title: {text: "Income vs Expense"},
+        xaxis: {
+            title: {text: 'Year'},
+            type: "category"
+        },
+        yaxis: {
+            title: {text: 'Amount, yen'}
+        }
+    };
+    Plotly.newPlot(plotDiv, traces, layout);
+}
+
+</script>
+#+end_src
+[[/html/plot_bar.html][Sample page]]

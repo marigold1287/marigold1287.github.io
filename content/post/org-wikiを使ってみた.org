@@ -1,0 +1,29 @@
+#+TITLE: Org Wikiを使ってみた
+#+DATE: 2025-02-26T01:24:51+09:00
+#+AUTHOR: K
+#+DRAFT: false
+#+TAGS[]: emacs
+#+CATEGORIES: tech
+org-roamのメモを体系的に管理するのに使ってみたのだが、わざわざツールを1つ増やす必要があるのかという点に疑問を感じる。
+[[https://github.com/caiorss/org-wiki][GitHub - caiorss/org-wiki: Wiki for Emacs org-mode built on top of Emacs org-...]]
+更新も8年前に終わっているし、廃れたツールなのかもしれない
+
+githubに書いてるとおりだが、これでインストールできる。
+package-list-packagesにはない...
+#+begin_src elisp
+(let ((url "https://raw.githubusercontent.com/caiorss/org-wiki/master/org-wiki.el"))
+      (with-current-buffer (url-retrieve-synchronously url)
+        (goto-char (point-min))
+        (re-search-forward "^$")
+        (delete-region (point) (point-min))
+        (kill-whole-line)
+        (package-install-from-buffer)))
+
+(require 'org-wiki)
+
+(setq org-wiki-location "~/org/wiki")
+#+end_src
+
+試しに2,3ページ作ってみたが、やってることはroamと変わらない感じがするのだよね。
+
+
