@@ -2,7 +2,7 @@
 title = "datatablesのserverSide処理"
 author = ["K"]
 date = 2025-03-09T14:59:34+09:00
-lastmod = 2025-03-09T14:59:59+09:00
+lastmod = 2025-03-09T18:25:29+09:00
 tags = ["datatables", "javascript", "flask", "python"]
 categories = ["tech"]
 draft = false
@@ -35,7 +35,7 @@ $("#tableId").DataTable({
 ```
 
 `serverSide: true` を加える。
-serverSide処理ではサーバーにJSON形式の情報が送信されるから `ajax` の設定に `type: "POST"` も加える。
+serverSide処理ではサーバーにデータテーブルのインフォメーションが送信されるから `ajax` の設定に `type: "POST"` も加える。
 
 
 ## データ受け取り form形式 {#データ受け取り-form形式}
@@ -105,7 +105,7 @@ def parse_parameters(params):
 ## データ受け取り json形式 {#データ受け取り-json形式}
 
 <https://stackoverflow.com/questions/24890420/how-to-process-server-side-parameter-sent-from-jquery-datatables-using-flask>
-少し古い回答だが、これに少し手を加えてjson形式で受け取ることもできる。
+少し古い回答だが、これに少し手を加えればjson形式で受け取ることもできる。
 
 まず `ajax` に
 
