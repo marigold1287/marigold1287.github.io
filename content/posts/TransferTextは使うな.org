@@ -4,14 +4,16 @@
 #+DRAFT: false
 #+TAGS[]: access
 #+CATEGORIES: tech
+
 Accessでtxt形式のファイルをエクスポートするとき、
 ~DoCmd.TransferText~ というコマンドを使うのだが、
 数値データが有効数値2桁くらいで打ち切られてしまう。
 ~0.00325~ が ~0.003~ になってしまうのだ。
 
 調べていると同じ不具合を報告しているところもちらほら見つかる（[[http://inakase.seesaa.net/article/374225835.html][外部サイト]]とか）。
-エクスポート設定を適切にすれば直るのかもしれないが詳細不明。
+多分数値列を文字列型にしてから出力すれば良いのだろうが、
+バッチ処理には向かないような気がするので試していない。
 
-~DoCmd.TransferSpreadsheet~ を使ってエクセルで出力してから、
-Pythonか何かでCSVに変換すると良い。
+結局 ~DoCmd.TransferSpreadsheet~ を使ってエクセルで出力してから、
+PythonでCSV変換して解決した。
 
