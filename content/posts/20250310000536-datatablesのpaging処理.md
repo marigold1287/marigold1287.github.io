@@ -2,7 +2,7 @@
 title = "datatablesのpaging処理"
 author = ["K"]
 date = 2025-03-10T00:12:08+09:00
-lastmod = 2025-03-10T00:26:08+09:00
+lastmod = 2025-03-10T00:41:30+09:00
 tags = ["datatables", "javascript"]
 categories = ["tech"]
 draft = false
@@ -36,7 +36,7 @@ const table = $("#tableId").DataTable({
 
 ## paging {#paging}
 
-`false` の場合はすべてのデータがいっぺんに表示されるのでデータが多い場合は重くなってしまう。ただ、[serverSide]({{< relref "20250309113032-datatablesのserverside処理.md" >}})処理をしない限りは表示しようがしなかろうがすべてのデータを読み込むので重い場合はserverSideでしょりすること。
+`false` の場合はすべてのデータがいっぺんに表示されるのでデータが多い場合は重くなってしまう。ただ、[serverSide]({{< relref "20250309113032-datatablesのserverside処理.md" >}})処理をしない限りは表示しようがしなかろうがすべてのデータを読み込むので重い場合はserverSideで処理すること。
 
 
 ## pageLength {#pagelength}

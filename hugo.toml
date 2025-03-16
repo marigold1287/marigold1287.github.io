@@ -37,3 +37,9 @@ theme = "PaperMod"
                 url = "/search/"
                 weight = 30
 
+          [[menu.main]]
+                identifier = "misskey"
+                name = "misskey"
+                url = "https://misskey.io/@yurisky"
+                weight = 40
+
