@@ -2,7 +2,7 @@
 title = "python chardetでエンコーディング(encoding)を判定する"
 author = ["K"]
 date = 2025-04-15T22:14:02+09:00
-lastmod = 2025-04-15T22:16:55+09:00
+lastmod = 2025-04-24T07:45:40+09:00
 tags = ["python"]
 categories = ["tech"]
 draft = false
@@ -62,10 +62,12 @@ string = bytestring.decode(result["encoding"])
 
 中国語だと `GB2312` と表示される場合が多いが、 `GBK` とか `GB18030` も試すと良い。ドイツ語だと `ISO 8859-1` 。
 
+<https://docs.python.org/ja/3.13/library/codecs.html#module-codecs> でコーデックの一覧を確認できる。
+
 
 ## 用語 {#用語}
 
-あっているか分からないけど
+あっているか自信ないけど
 
 
 ### 文字コード {#文字コード}
