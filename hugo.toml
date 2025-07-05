@@ -42,4 +42,5 @@ theme = "PaperMod"
                 name = "misskey"
                 url = "https://misskey.io/@yurisky"
                 weight = 40
-
+[markup.goldmark.renderer]
+    unsafe = true
