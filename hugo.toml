@@ -13,8 +13,6 @@ theme = "PaperMod"
                 Title = "K's room"
                 Content = "わたしのoutputスペース"
 
-[frontmatter]
-        ShowToc = true
 [outputs]
         home = ["HTML", "RSS", "JSON"]
 

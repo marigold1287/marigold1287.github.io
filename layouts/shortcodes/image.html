@@ -1,0 +1,24 @@
+{{- $src := .Get "src" }}
+{{- $imageUrl := $src }}
+{{ $res := .Page.Resources.GetMatch $src | default (resources.Get $src) }}
+
+{{- if $res }}
+  {{- $thumb := $res.Fit "250x250" }}
+
+  {{ $width := $res.Width }}
+  {{ $height := $res.Height }}
+
+  {{ $format := "x%d" }}
+  {{ if gt $width $height }}
+    {{ $format = "%dx" }}
+  {{ end }}
+  {{- $full := $res.Resize (printf $format 1024) }}
+
+  <figure>
+    <a href="{{ $full.RelPermalink }}" target="_blank" rel="lightbox[1]">
+      <img src="{{ $thumb.RelPermalink }}" />
+    </a>
+  </figure>
+{{- else }}
+  <!-- 画像が見つからない -->
+{{- end }}

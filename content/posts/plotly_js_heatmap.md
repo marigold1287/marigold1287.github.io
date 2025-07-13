@@ -1,12 +1,14 @@
 +++
 title = "plotly.jsのheatmapグラフ"
 author = ["K"]
-date = 2025-07-05T17:03:01+09:00
-lastmod = 2025-07-05T18:26:35+09:00
-tags = ["javascript", "plotly.js"]
+date = 2025-07-05T17:03:00+09:00
+lastmod = 2025-07-13T18:17:26+09:00
+tags = ["plotly-js", "javascript"]
 categories = ["tech"]
 draft = false
 showtoc = true
+[build]
+  publishResources = false
 +++
 
 <a id="code-snippet--plotly-heatmap"></a>
