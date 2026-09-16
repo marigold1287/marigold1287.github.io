@@ -1,0 +1,66 @@
+site_name: K's room
+site_url: https://marigold1287.github.io/
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - About Me: about.md
+  - 中国:
+    - 天津: tianjin.md
+    - 上海: shanghai.md
+    - 北京: beijing.md
+    - アプリ: china-apps.md
+    - VPN: vpn.md
+    - SIM(China Unicom): china-unicom.md
+    - ワクチン: vaccine.md
+    - 高速鉄道: 12306.md
+    - タクシー: didi.md
+    - 地下鉄: ditie.md
+    - スプリングジャパン: spring-japan-international.md
+    - 入国審査: china-immigration.md
+    - 国内線: china-domestic-flight.md
+  - 海外全般:
+    - 帰国手続き(Visit Japan): visit-japan.md
+    - パスポート再発行: lost-passport.md
+    - たびレジ: tabireg.md
+  - Tags: tags.md
+  - Blog:
+      - blog/index.md
+
+
+
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - search:
+      lang: ja
+  - blog:
+      archive_date_format: yyyy/MM
+      archive_url_date_format: yyyy/MM
+  - optimize
+  - tags:
+      listings_sort_by: !!python/name:material.plugins.tags.item_url
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+hooks:
+  - my_plugin.py

@@ -1,0 +1,9 @@
+.venv/
+site/
+sandbox/
+.cache/
+__pycache__/
+
+*~
+\#*\#
+.#*
