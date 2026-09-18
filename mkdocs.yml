@@ -47,6 +47,7 @@ plugins:
   - blog:
       archive_date_format: yyyy/MM
       archive_url_date_format: yyyy/MM
+      post_date_format: yyyy/MM/dd (E)
   - optimize
   - tags:
       listings_sort_by: !!python/name:material.plugins.tags.item_url

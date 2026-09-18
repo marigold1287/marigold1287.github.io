@@ -32,3 +32,4 @@ def on_page_markdown(markdown, page, config, files):
             markdown += extra_meta_text
 
         return markdown
+
