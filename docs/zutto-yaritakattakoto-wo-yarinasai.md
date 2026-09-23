@@ -71,3 +71,4 @@ tags:
 - [week4 本来の自分を取り戻す](./zutto-yaritakattakoto-wo-yarinasai-week4.md)
 - [week5 できるという感覚を取り戻す](./zutto-yaritakattakoto-wo-yarinasai-week5.md)
 - [week6 豊かさの感覚を取り戻す](./zutto-yaritakattakoto-wo-yarinasai-week6.md)
+- [week7 つながりの感覚を取り戻す](./zutto-yaritakattakoto-wo-yarinasai-week7.md)
