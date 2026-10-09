@@ -20,3 +20,6 @@ date: 2026-10-04
 
 ## お迎え品
 ![](./static/images/261004223142434.jpg)
+
+## リンク
+- <https://x.com/natuki1016>
