@@ -27,8 +27,11 @@ date: 2026-10-04
 ### 葉山そら
 <https://x.com/H__ymSrkt>
 
+金木犀
+
 ![](./static/images/261004223556868.jpg)
 
+- <https://hym-srkt.fanbox.cc/posts/12700438>
 ### 佐藤メレ
 <https://x.com/sugar_ronde>
 

@@ -100,3 +100,8 @@ date: 2026-10-07
 
 ## リンク
 - <https://tokyoten-bijutsu.com/?p=1309>
+
+マユヒラさんの告知記事と感想記事
+
+- <https://yurari-yuhira.fanbox.cc/posts/12568234>
+- <https://yurari-yuhira.fanbox.cc/posts/12797761>

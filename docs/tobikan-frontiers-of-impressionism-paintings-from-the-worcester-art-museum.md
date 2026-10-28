@@ -11,11 +11,15 @@ date: 2024-02-24
 
 作品リストを見ながら気に入った作品に印をつけておいた。
 ## トマス・コール アルノ川の眺望、フィレンツェ近郊
-<https://worcester.emuseum.com/objects/20898/view-on-the-arno-near-florence>
-
 入口に入って一番最初に目についた作品
+
+
+
+[![View on the Arno near Florence](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/View_on_the_Arno%2C_near_Florence%2C_1837%2C_by_Thomas_Cole_(1801-1848)_-_Worcester_Art_Museum_-_IMG_7671.JPG/330px-View_on_the_Arno%2C_near_Florence%2C_1837%2C_by_Thomas_Cole_(1801-1848)_-_Worcester_Art_Museum_-_IMG_7671.JPG)](https://commons.wikimedia.org/wiki/File:View_on_the_Arno,_near_Florence,_1837,_by_Thomas_Cole_(1801-1848)_-_Worcester_Art_Museum_-_IMG_7671.JPG)
 ## アルフレッド・シスレー 洗濯場
-<https://worcester.emuseum.com/objects/19543/le-lavoir-the-washhouse>
+
+
+[![The Laundry](https://upload.wikimedia.org/wikipedia/commons/5/53/Sisley_-_The-Laundry.jpg)](https://commons.wikimedia.org/wiki/File:Sisley_-_The-Laundry.jpg)
 
 穏やかな田舎街といった感じ、明るい希望にあふれる雰囲気。
 ## チャイルド・ハッサム 花摘み、フランス式庭園にて

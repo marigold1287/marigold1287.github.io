@@ -15,6 +15,7 @@ theme:
 nav:
   - About Me: about.md
   - 中国:
+    - ことのはじまり: china-prologue.md
     - 天津: tianjin.md
     - 上海: shanghai.md
     - 北京: beijing.md
