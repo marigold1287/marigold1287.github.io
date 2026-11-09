@@ -1,0 +1,35 @@
+---
+tags:
+    - tech
+---
+# 超軽量オーディオプレイヤー mpg123
+MPEG(MP3等)しか再生できないがターミナル上で動作する超軽量なオーディオプレイヤー
+
+
+## ストリーミングを再生する
+```bash
+mpg123 -@ https://somafm.com/groovesalad.pls
+```
+
+[somaFM](https://somafm.com/)は広告フリーのラジオ
+
+## ウインドウタイトルバーに曲名を表示する
+`--title`をつける。
+
+```bash
+mpg123 --title audio.mp3
+```
+## 音量調整
+`mp3gain`などを使ってファイルにノーマライズに関する情報を埋めておけば
+`--rva-mix` オプションで使用することができる
+
+## その他
+同じようなツールに
+
+- ffplay
+- [mpv](./mpv.md)
+
+などもある。
+
+## リンク
+<https://www.mpg123.de/index.shtml>
