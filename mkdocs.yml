@@ -43,6 +43,7 @@ nav:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_parallel_processing: false
   - search:
       lang: ja
   - blog:

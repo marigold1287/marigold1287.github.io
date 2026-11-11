@@ -25,5 +25,7 @@ ID3v2.2, ID3v2.3, ID3v2.4の3つがある。
 
 公式にサポートされているタグは以下にリスト化されている。
 
-https://id3.org/id3v2.4.0-frames
+<https://id3.org/id3v2.4.0-frames>
 
+## 関連
+- [mutagen](./mutagen.md)
